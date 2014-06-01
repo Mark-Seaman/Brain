@@ -1,0 +1,51 @@
+#!/bin/bash
+# Start working on the simple project
+
+# Vars
+export p=~/Projects/impact
+export ph=seaman@markseaman.org
+export port=8011
+export pa=$p/app
+export pb=$p/bin
+export pd=$p/doc
+export pt=$p/test
+export x=~/Projects/thumper
+
+# Aliases
+alias proot="cd $p"
+alias papp="cd $pa"
+alias pbin="cd $pb"
+alias pdoc="cd $pd"
+alias ptest="cd $pt"
+alias eapp="e $pa"
+alias ebin="e $pb"
+alias edoc="e $pd"
+alias etest="e $pt"
+alias tres='tresults'
+alias s='search'
+
+# Path
+export _OLD_VIRTUAL_PATH=\
+$pb:\
+$pt:\
+/usr/bin:\
+/sbin:\
+/bin:\
+~/bin:\
+.
+
+# Directory
+cd $p
+#figlet Impact Group > $p/bin/welcome
+cat $p/bin/welcome
+
+# Use virtualenv
+[ 'seaman-chute' == `hostname` ] &&  . $p/env/bin/activate
+[ 'seaman-ultra' == `hostname` ] &&  . $p/env/bin/activate
+echo "python = `which python`"
+echo 
+path
+
+# Status
+git status
+

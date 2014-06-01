@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+
+{% block content %}
+    <h2>My IdeaFeedbacks</h2>
+    <a href='/'>Home</a>
+    <a href='/ideafeedback/add'>Add IdeaFeedback</a>
+    <a href='/ideafeedback/test'>IdeaFeedback Test</a>
+
+    {% if debug %}
+    <pre>
+      {{ object_list }}
+    </pre>
+    {% endif %}
+
+    <hr>
+    <table>
+        {% for row in object_list %}
+            <tr>
+              {% for column in row %}
+                  <td>{{ column }}</td>
+              {% endfor %}
+            </tr>
+            <td>
+              <a href="/ideafeedback/{{ row.0 }}">Details</a>
+            </td>
+        {% endfor %}
+    </table>
+
+{% endblock %}

@@ -1,0 +1,31 @@
+Run the script devtest
+4 Contacts
+Contact list:  4 records
+    id        :  1
+    name      :  Tom
+    address   :  Here
+    phone     :  900-555-1212
+    user      :  SuperUser
+
+    id        :  2
+    name      :  Jerry
+    address   :  Here
+    phone     :  900-555-1212
+    user      :  SuperUser
+
+    id        :  3
+    name      :  Billy
+    address   :  Here
+    phone     :  900-555-1212
+    user      :  SuperUser
+
+    id        :  4
+    name      :  Bob
+    address   :  Here
+    phone     :  900-555-1212
+    user      :  SuperUser
+
+Checking for users
+Super user OK
+test robot OK
+Scripts run successfully

@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+
+{% block content %}
+    <h2>My IdeaGroups</h2>
+    <a href='/'>Home</a>
+    <a href='/ideagroup'>IdeaGroup Views</a>
+
+    {% if debug %}
+    <pre>
+      {{ object_list }}
+    </pre>
+    {% endif %}
+
+    <hr>
+    <table>
+        {% for row in object_list %}
+            <tr>
+              {% for column in row %}
+                  <td>{{ column }}</td>
+              {% endfor %}
+            </tr>
+            <td>
+              <a href="/ideagroup/{{ row.0 }}">Details</a>
+            </td>
+        {% endfor %}
+    </table>
+
+{% endblock %}
