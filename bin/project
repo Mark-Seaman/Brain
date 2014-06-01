@@ -2,14 +2,14 @@
 # Start working on the simple project
 
 # Vars
-export p=~/Projects/impact
+export p=~/Projects/brain
 export ph=seaman@markseaman.org
 export port=8011
 export pa=$p/app
 export pb=$p/bin
 export pd=$p/doc
 export pt=$p/test
-export x=~/Projects/thumper
+export x=~/Projects/impact
 
 # Aliases
 alias proot="cd $p"
@@ -36,12 +36,11 @@ $pt:\
 
 # Directory
 cd $p
-#figlet Impact Group > $p/bin/welcome
 cat $p/bin/welcome
 
 # Use virtualenv
-[ 'seaman-chute' == `hostname` ] &&  . $p/env/bin/activate
-[ 'seaman-ultra' == `hostname` ] &&  . $p/env/bin/activate
+
+[ -d $p/env/bin/activate ] && . $p/env/bin/activate
 echo "python = `which python`"
 echo 
 path
