@@ -39,8 +39,7 @@ cd $p
 cat $p/bin/welcome
 
 # Use virtualenv
-
-[ -d $p/env/bin/activate ] && . $p/env/bin/activate
+[ -f $p/env/bin/activate ] && . $p/env/bin/activate
 echo "python = `which python`"
 echo 
 path
