@@ -1,3 +1,5 @@
+bin/app-code
+bin/app-models
 bin/cache
 bin/commit
 bin/create
@@ -21,9 +23,9 @@ bin/impact-urls
 bin/impact-views
 bin/install.pip
 bin/json-load
-bin/json-load-company
+bin/json-load-doc
 bin/json-save
-bin/json-save-company
+bin/json-save-doc
 bin/json-show
 bin/lc
 bin/mkcode
@@ -47,6 +49,7 @@ bin/project
 bin/range
 bin/rbg
 bin/rmas
+bin/rs
 bin/run
 bin/search
 bin/show
@@ -64,6 +67,7 @@ bin/tnew
 bin/todo
 bin/tout
 bin/tresults
+bin/trm
 bin/trun
 bin/tshow
 bin/tst
@@ -103,4 +107,3 @@ test/scripts.tst
 test/src.tst
 test/tablerw.tst
 test/update.tst
-test/vars.tst

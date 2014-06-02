@@ -1,31 +1,31 @@
 Run the script devtest
-4 Contacts
-Contact list:  4 records
+4 Docs
+Doc list:  4 records
     id        :  1
-    name      :  Tom
-    address   :  Here
-    phone     :  900-555-1212
-    user      :  SuperUser
+    user      :  TestRobot
+    path      :  My Path
+    title     :  My Title
+    text      :  None
 
     id        :  2
-    name      :  Jerry
-    address   :  Here
-    phone     :  900-555-1212
-    user      :  SuperUser
+    user      :  TestRobot
+    path      :  My Path
+    title     :  My Title
+    text      :  None
 
     id        :  3
-    name      :  Billy
-    address   :  Here
-    phone     :  900-555-1212
-    user      :  SuperUser
+    user      :  TestRobot
+    path      :  My Path
+    title     :  My Title
+    text      :  None
 
     id        :  4
-    name      :  Bob
-    address   :  Here
-    phone     :  900-555-1212
-    user      :  SuperUser
+    user      :  TestRobot
+    path      :  My Path
+    title     :  My Title
+    text      :  None
 
 Checking for users
 Super user OK
-test robot OK
+Test Robot OK
 Scripts run successfully
