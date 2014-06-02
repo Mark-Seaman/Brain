@@ -89,6 +89,7 @@ tlist
 tnew
 todo
 tresults
+trm
 trun
 tshow
 tst
@@ -146,5 +147,3 @@ tablerw.correct
 tablerw.tst
 update.correct
 update.tst
-vars.correct
-vars.tst
