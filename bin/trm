@@ -1,0 +1,5 @@
+#!/bin/bash
+# Remove a test
+
+rm $pt/$1.*
+
