@@ -1,8 +1,8 @@
-actual: 1 expected: 360
-File: data/impact-srs.json 42 Lines
-Installed 4 object(s) from 1 fixture(s)
-Installed 34 object(s) from 1 fixture(s)
-impact JSON file
-330
-impact-srs JSON file
-42
+brain JSON file
+File: data/brain.json 254 Lines
+254
+Installed 26 object(s) from 1 fixture(s)
+brain-doc JSON file
+File: data/brain-doc.json 254 Lines
+254
+Installed 26 object(s) from 1 fixture(s)

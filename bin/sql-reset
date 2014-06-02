@@ -2,7 +2,7 @@
 # Reset the SQL database
 
 cd $pa
-rm data/srs.db
+rm data/brain.db
 
 ./manage.py syncdb
 

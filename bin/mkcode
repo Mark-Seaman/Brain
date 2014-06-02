@@ -5,24 +5,7 @@
 cd $p/app/generate
 
 # Test purposes only
-mkdatatype Contact srs
-
-# Generate code for each data type
-mkdatatype Provider srs
-mkdatatype Company srs
-mkdatatype Employee srs
-mkdatatype Group srs
-
-mkdatatype Kudo srs
-mkdatatype KudoFeedback srs
-mkdatatype Driver srs
-mkdatatype Behavior srs
-mkdatatype Award srs
-mkdatatype AwardFeedback srs
-        
-mkdatatype Idea srs
-mkdatatype IdeaFeedback srs
-
+mkdatatype Doc doc
 
 # Test the new code
 #run contact/

@@ -2,6 +2,6 @@
 # Load the entire database as JSON
 
 cd $pa
-manage.py  loaddata  data/impact.json
+manage.py  loaddata  data/brain.json
 
 

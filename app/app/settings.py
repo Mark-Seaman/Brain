@@ -44,7 +44,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_extensions',
-    'srs',
+    'doc',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -67,7 +67,7 @@ TEMPLATE_DIRS = (
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': join(BASE_DIR, 'data', 'srs.db'),
+        'NAME': join(BASE_DIR, 'data', 'brain.db'),
     }
 }
 

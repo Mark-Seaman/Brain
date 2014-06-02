@@ -2,7 +2,7 @@
 # Save the entire database as JSON
 
 cd $pa
-f=data/impact.json
+f=data/brain.json
 manage.py  dumpdata > $f
 
 echo "File: $f `cat $f | json-format | lc` Lines"
