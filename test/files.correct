@@ -1,10 +1,10 @@
 Remove automatically saved files from this directory tree
 Git orig files
 Git libpeerconnection files
-/home/seaman/Projects/impact/profile
-/home/seaman/Projects/impact/README.md
+/home/seaman/Projects/brain/profile
+/home/seaman/Projects/brain/README.md
 
-/home/seaman/Projects/impact:
+/home/seaman/Projects/brain:
 app
 bin
 doc
@@ -14,17 +14,20 @@ profile
 README.md
 test
 
-/home/seaman/Projects/impact/app:
+/home/seaman/Projects/brain/app:
 app
 data
+data_types.py
+doc
 generate
 manage.py
 scripts
-srs
 static
 templates
 
-/home/seaman/Projects/impact/bin:
+/home/seaman/Projects/brain/bin:
+app-code
+app-models
 cache
 commit
 create
@@ -47,9 +50,9 @@ impact-urls
 impact-views
 install.pip
 json-load
-json-load-company
+json-load-doc
 json-save
-json-save-company
+json-save-doc
 json-show
 lc
 mkcode
@@ -72,6 +75,7 @@ project
 range
 rbg
 rmas
+rs
 run
 search
 show
@@ -98,7 +102,7 @@ var-set
 var-write
 welcome
 
-/home/seaman/Projects/impact/doc:
+/home/seaman/Projects/brain/doc:
 classes
 Domains
 Public
@@ -106,17 +110,18 @@ SRS
 test
 vars-data
 
-/home/seaman/Projects/impact/env:
+/home/seaman/Projects/brain/env:
 bin
 include
 lib
 local
-man
 
-/home/seaman/Projects/impact/logs:
+/home/seaman/Projects/brain/logs:
+python.tst.log
+tablerw.tst.log
 user
 
-/home/seaman/Projects/impact/test:
+/home/seaman/Projects/brain/test:
 content.correct
 content.tst
 data.correct

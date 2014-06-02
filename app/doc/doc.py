@@ -8,9 +8,10 @@ from django.core.urlresolvers import reverse
     
 # Define a contact data type
 class Doc(models.Model):
-    name    = models.CharField (max_length=40)
     user    = models.ForeignKey(User)
-
+    path    = models.CharField (max_length=200)
+    title   = models.CharField (max_length=200)
+    text    = models.TextField ()
 
     # Format a record as a string
     def __unicode__(self):
@@ -75,10 +76,10 @@ def show_doc(doc):
 def add_fake_doc(name):
     print 'Make doc: ', name
     c = Doc()
-    #c.user = User.objects.get(name='TestRobot')
-    #c.name = name
-    #c.address = 'Here'
-    #c.phone = '900-555-1212'
+    c.user = User.objects.get(username='TestRobot')
+    c.path = 'My Path'
+    c.title = 'My Title'
+    c.text = 'None'
     c.save()
     return c
 

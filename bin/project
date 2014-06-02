@@ -23,6 +23,7 @@ alias edoc="e $pd"
 alias etest="e $pt"
 alias tres='tresults'
 alias s='search'
+alias syncdb='cd $pa && manage.py syncdb'
 
 # Path
 export _OLD_VIRTUAL_PATH=\

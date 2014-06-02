@@ -14,10 +14,10 @@ def run():
 
     # Make sure there is one Test Robot user
     if len(User.objects.filter(username='TestRobot'))!=1:
-        print 'Bad test robot config'
+        print 'Create TestRobot user'
         name = 'TestRobot'
         email = 'mark.b.seaman+TestRobot@gmail.com'
         pw =  'x'
         user = User.objects.create_user(name, email, pw)
-    else:
-        print 'test robot OK'
+    if len(User.objects.filter(username='TestRobot'))==1:
+        print 'Test Robot OK'

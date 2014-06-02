@@ -1,6 +1,6 @@
 # Run development test
 
-from srs.contact import test_code
+from doc.doc import test_code
 
 def run():
     print 'Run the script devtest'
