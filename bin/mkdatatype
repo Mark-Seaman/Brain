@@ -11,7 +11,8 @@ module_name = 'module'
 
 # Find the names of all templates
 def template_files():
-    templates = [ 'dt.py',   'dt_views.py',  'dt_tests.py',    'dt_urls.py',
+    templates = [ 'dt_model.py', 'dt_model.py', 'dt_views.py', 'dt_tests.py',
+                  'dt_urls.py',
                   'dt.html', 'dt_list.html', 'dt_detail.html', 'dt_delete.html', 
                   'dt_edit.html', 'dt_test.html' ]
     return [ f for f in  listdir('generate') if f in templates ] + \
