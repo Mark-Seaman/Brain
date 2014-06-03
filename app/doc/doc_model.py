@@ -1,5 +1,5 @@
-# srs/data_type.py
-# Model for Data_Type records
+# srs/doc.py
+# Model for Doc records
 
 
 #############################################################################
@@ -14,7 +14,7 @@ from django.core.urlresolvers import reverse
             
 
 # Define a contact data type
-class Data_Type(models.Model):
+class Doc(models.Model):
     [[CLASS]]
 
 
@@ -24,7 +24,7 @@ class Data_Type(models.Model):
 
     # Back trace a url to a view
     def get_absolute_url(self):
-        return reverse('data_type-detail', kwargs={'pk': self.pk})
+        return reverse('doc-detail', kwargs={'pk': self.pk})
 
     # Object field handling
     def __iter__(self):

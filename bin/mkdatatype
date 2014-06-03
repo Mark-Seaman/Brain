@@ -11,7 +11,7 @@ module_name = 'module'
 
 # Find the names of all templates
 def template_files():
-    templates = [ 'dt_model.py', 'dt_model.py', 'dt_views.py', 'dt_tests.py',
+    templates = [ 'dt_model.py', 'dt_query.py', 'dt_views.py', 'dt_tests.py',
                   'dt_urls.py',
                   'dt.html', 'dt_list.html', 'dt_detail.html', 'dt_delete.html', 
                   'dt_edit.html', 'dt_test.html' ]
