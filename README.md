@@ -1,4 +1,4 @@
-Impact
-======
+Brain
+=====
 
-Impact Group Social Recognition System
+How to build an exterior brain to manage information.
