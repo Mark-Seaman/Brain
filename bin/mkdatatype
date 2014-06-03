@@ -2,7 +2,7 @@
 # Create the source code for a Django data type
 
 from os.path import join,exists
-from os import chdir,environ,listdir,mkdir
+from os import chdir,environ,listdir,mkdir,getcwd
 from sys import argv
 
 
@@ -24,6 +24,7 @@ def convert_source(text, data_type, data_type_cap,module_name):
     text = text.replace('module_name',module_name)
     text = text.replace('data_type',data_type)
     text = text.replace('Data_Type',data_type_cap)
+    text = text.replace('[[CLASS]]', data_types[data_type_cap]['class'])
     return text
 
 
@@ -71,12 +72,16 @@ def build_source_files(data_type,data_type_cap,module_name):
         create_source_file(f, data_type,data_type_cap,module_name)
 
 
-chdir (environ['p']+'/app')
 
-# You must supply a class name
-if len(argv)<3:
-    print 'example usage: '+argv[0]+' Contact'
-else:
-    if len(argv)>2:
-        print "Create the source code for a Django data type, ", argv[2]+'/'+argv[1]
-        build_source_files(argv[1].lower(),argv[1],argv[2])
+# Create all source code
+def generate_source_files(data_types):
+    for dt in data_types:
+        data_type = dt
+        module = data_types[dt]['module']
+        print "Create the source code for a Django data type, ", module+'/'+data_type
+        build_source_files(data_type.lower(),data_type,module)
+ 
+
+chdir (environ['pa'])
+execfile('generate/data_types.py')
+generate_source_files(data_types)

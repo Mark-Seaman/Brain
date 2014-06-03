@@ -2,10 +2,10 @@
 # Generate all of the code for the application
 
 # Go to the correct directory
-cd $p/app/generate
+cd $p/app
 
 # Test purposes only
-mkdatatype Doc doc
+mkdatatype 
 
 # Test the new code
 #run contact/

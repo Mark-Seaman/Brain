@@ -1,5 +1,5 @@
-# doc/doc.py
-# Model for Doc records
+# brain/contact.py
+# Model for Contact records
 
 
 #############################################################################
@@ -13,12 +13,12 @@ from django.core.urlresolvers import reverse
 
             
 # Define a contact data type
-class Doc(models.Model):
+class Contact(models.Model):
     
+    name    = models.CharField (max_length=40)
+    address = models.CharField (max_length=100)    
+    phone   = models.CharField (max_length=15)
     user    = models.ForeignKey(User)
-    path    = models.CharField (max_length=200)
-    title   = models.CharField (max_length=200)
-    text    = models.TextField ()
         
     # Format a record as a string
     def __unicode__(self):
@@ -26,7 +26,7 @@ class Doc(models.Model):
 
     # Back trace a url to a view
     def get_absolute_url(self):
-        return reverse('doc-detail', kwargs={'pk': self.pk})
+        return reverse('contact-detail', kwargs={'pk': self.pk})
 
     # Object field handling
     def __iter__(self):

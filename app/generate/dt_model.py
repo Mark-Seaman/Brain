@@ -1,4 +1,4 @@
-# srs/data_type.py
+# module_name/data_type.py
 # Model for Data_Type records
 
 
@@ -12,12 +12,9 @@ from django.contrib.auth.models import User
 from django.core.urlresolvers import reverse
 
             
-
 # Define a contact data type
 class Data_Type(models.Model):
     [[CLASS]]
-
-
     # Format a record as a string
     def __unicode__(self):
         return self.name
