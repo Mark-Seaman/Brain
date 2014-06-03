@@ -4,6 +4,7 @@
 *.db
 __pycache__/
 *.py[cod]
+*.orig
 
 # C extensions
 *.so
