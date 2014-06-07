@@ -5,7 +5,7 @@ data_types = {
    #-----------------------------------------------------------------------------
 
     'Doc': {
-        'module': 'event',
+        'module': 'doc',
         'class': 
         '''
     user    = models.ForeignKey(User)

@@ -12,7 +12,7 @@ module_name = 'module'
 # Find the names of all templates
 def template_files():
     templates = [ 'dt_model.py', 'dt_query.py', 'dt_views.py', 'dt_tests.py',
-                  'dt_urls.py',
+                  'dt_urls.py', 'test_dt.py',
                   'dt.html', 'dt_list.html', 'dt_detail.html', 'dt_delete.html', 
                   'dt_edit.html', 'dt_test.html' ]
     return [ f for f in  listdir('generate') if f in templates ] + \
@@ -21,10 +21,15 @@ def template_files():
 
 # Convert source file
 def convert_source(text, data_type, data_type_cap,module_name):
+    my_type = data_types[data_type_cap]
+    if my_type.has_key('import'):
+        text = text.replace('[[IMPORT]]', my_type['import'])
+    else:
+        text = text.replace('[[IMPORT]]', '')
+    text = text.replace('[[CLASS]]', my_type['class'])
     text = text.replace('module_name',module_name)
     text = text.replace('data_type',data_type)
     text = text.replace('Data_Type',data_type_cap)
-    text = text.replace('[[CLASS]]', data_types[data_type_cap]['class'])
     return text
 
 
@@ -42,7 +47,7 @@ def show_code(path, text):
 
 # Write the source code to the app directory
 def write_source(code, filename, text):
-    if filename!='dt.py' or not exists(code):
+    if filename!='dt_query.py' or not exists(code):
         f=open(code, 'w')
         f.write(text)
         f.close()

@@ -1,6 +1,6 @@
 # Run data_type test
 
-from event.data_type_query import test_code
+from module_name.data_type_query import test_code
 
 def run():
     print 'Run the script test_data_type'

@@ -12,8 +12,8 @@ from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.core.urlresolvers import reverse_lazy
 from django.contrib.auth.decorators import login_required
 
-from models import Doc
-from doc import query_doc, get_doc
+from doc_model import Doc
+from doc_query import query_doc, get_doc
 
 
 # Basic list view with using a template
