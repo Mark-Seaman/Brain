@@ -4,6 +4,7 @@
 from django.contrib.auth.models import User
 
 from data_type_model import Data_Type
+#from faker import fake_name,fake_address,fake_phone_number,fake_company
 
 
 # Get a table listing from the database
@@ -22,37 +23,43 @@ def get_data_type(user,id):
         return a[0].table()
 
 
-# Generate a new record if needed
-def add_fake_data_type(name):
-    print 'Make data_type: ', name
-    c = Data_Type()
-    #c.user = User.objects.get(name='TestRobot')
-    #c.name = name
-    #c.address = 'Here'
-    #c.phone = '900-555-1212'
-    c.save()
-    return c
+# Print the object fields as a table
+def print_data_type(data_type):
+    for x in data_type.table():
+        print '    %-10s:  %s' % (x[0],x[1])
+    print
 
 
-# Perform a test on this object type
-def test_code():
-
-    # Count current records
-    num_data_types = len(query_data_type())
-    print '%d Data_Types' % num_data_types
-
-    # Delete all records
-    #Data_Type.objects.all().delete()
-
-    # If there are no data_types then make some
-    if num_data_types<1:
-        fake_names = [ 'Tom', 'Jerry', 'Billy', 'Bob' ]
-        for c in fake_names:
-            add_fake_data_type(c)
-
-    # Print a list of all names
+# Print the object list as a table
+def print_data_type_list():
     all = Data_Type.objects.all()
     print 'Data_Type list:  %d records' % len(all)
     for c in all:
         print_data_type(c)
+
+
+# Generate a new record if needed
+def add_fake_data_type():
+    c = Data_Type()
+    # c.user = User.objects.get(username='TestRobot')
+    # c.name = fake_name()
+    # c.address = fake_address()
+    # c.phone = fake_phone_number()
+    c.save()
+    return c
+
+
+# Remove the all data_types from the database
+def reset_data_type_list():
+    Data_Type.objects.all().delete()
+
+
+# Perform a test on data_type. If there are no data_types then make some.
+def test_code():
+    if len(Data_Type.objects.all())<1:
+        how_many = 4
+        for c in range(how_many):
+            add_fake_data_type()
+    print_data_type_list()
+    
 

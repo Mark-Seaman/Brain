@@ -11,6 +11,7 @@ from django.db import models
 from django.contrib.auth.models import User
 from django.core.urlresolvers import reverse
 
+[[IMPORT]]
             
 # Define a contact data type
 class Data_Type(models.Model):

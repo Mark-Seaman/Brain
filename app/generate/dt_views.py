@@ -12,8 +12,8 @@ from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.core.urlresolvers import reverse_lazy
 from django.contrib.auth.decorators import login_required
 
-from models import Data_Type
-from data_type import query_data_type, get_data_type
+from data_type_model import Data_Type
+from data_type_query import query_data_type, get_data_type
 
 
 # Basic list view with using a template
