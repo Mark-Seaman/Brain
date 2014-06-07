@@ -1,7 +1,7 @@
 # module_name/data_type.py
 # Model for Data_Type records
 
-from django.contrib.auth.models import User
+#from django.contrib.auth.models import User
 
 from data_type_model import Data_Type
 #from faker import fake_name,fake_address,fake_phone_number,fake_company
