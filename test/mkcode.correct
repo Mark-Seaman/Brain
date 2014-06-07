@@ -1,47 +1,8 @@
-
-data_types = {
-
-    #-----------------------------------------------------------------------------
-
-    'Contact': {
-        'module': brain,
-        'class': 
-'''
-
-# Contact
-class Contact(models.Model):
-    name    = models.CharField (max_length=40)
-    address = models.CharField (max_length=100)    
-    phone   = models.CharField (max_length=15)
-    user    = models.ForeignKey(User)
-
-'''
-
-    },
-
-    #-----------------------------------------------------------------------------
-
-    'Doc': {
-        'module': doc,
-        'class': 
-'''
-
-# Doc
-class doc(models.Model):
-    user    = models.ForeignKey(User)
-    path    = models.CharField (max_length=200)
-    title   = models.CharField (max_length=200)
-    text    = models.TextField ()
-
-'''
-
-    },
-
-}
-
 Create the source code for a Django data type,  doc/Doc
      doc/doc_views.py
      doc/doc_urls.py
+     doc/doc_model.py
+     doc/doc_query.py
      doc/doc_tests.py
      doc/templates/doc_detail.html
      doc/templates/doc_delete.html
@@ -49,3 +10,15 @@ Create the source code for a Django data type,  doc/Doc
      doc/templates/doc_list.html
      doc/templates/doc_test.html
      doc/templates/doc_edit.html
+Create the source code for a Django data type,  brain/Contact
+     brain/contact_views.py
+     brain/contact_urls.py
+     brain/contact_model.py
+     brain/contact_query.py
+     brain/contact_tests.py
+     brain/templates/contact_detail.html
+     brain/templates/contact_delete.html
+     brain/templates/contact.html
+     brain/templates/contact_list.html
+     brain/templates/contact_test.html
+     brain/templates/contact_edit.html

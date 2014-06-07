@@ -26,7 +26,7 @@ alias s='search'
 alias syncdb='cd $pa && manage.py syncdb'
 
 # Path
-export _OLD_VIRTUAL_PATH=\
+export PATH=\
 $pb:\
 $pt:\
 /usr/bin:\
@@ -34,6 +34,8 @@ $pt:\
 /bin:\
 ~/bin:\
 .
+export _OLD_VIRTUAL_PATH=$PATH
+
 
 # Directory
 cd $p

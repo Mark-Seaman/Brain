@@ -71,6 +71,7 @@ bin/trm
 bin/trun
 bin/tshow
 bin/tst
+bin/util/control.py
 bin/util/date.py
 bin/util/doc.py
 bin/util/domain.py
@@ -96,6 +97,7 @@ bin/var-set
 bin/var-write
 bin/welcome
 test/content.tst
+test/control.tst
 test/data.tst
 test/docs.tst
 test/files.tst

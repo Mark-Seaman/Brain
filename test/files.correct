@@ -16,8 +16,8 @@ test
 
 /home/seaman/Projects/brain/app:
 app
+brain
 data
-data_types.py
 doc
 generate
 manage.py
@@ -125,6 +125,8 @@ user
 /home/seaman/Projects/brain/test:
 content.correct
 content.tst
+control.correct
+control.tst
 data.correct
 data.tst
 docs.correct

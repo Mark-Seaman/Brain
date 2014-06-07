@@ -1,6 +1,6 @@
 Run the script devtest
-4 Docs
-Doc list:  4 records
+5 Docs
+Doc list:  5 records
     id        :  1
     user      :  TestRobot
     path      :  My Path
@@ -24,6 +24,12 @@ Doc list:  4 records
     path      :  My Path
     title     :  My Title
     text      :  None
+
+    id        :  5
+    user      :  TestRobot
+    path      :  yyy
+    title     :  xxx
+    text      :  xxx
 
 Checking for users
 Super user OK
