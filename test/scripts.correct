@@ -1,35 +1,29 @@
 Run the script devtest
-5 Docs
-Doc list:  5 records
+4 Docs
+Doc list:  4 records
     id        :  1
     user      :  TestRobot
-    path      :  My Path
-    title     :  My Title
-    text      :  None
+    path      :  Jessica Smith
+    title     :  Jessica Smith
+    text      :  Jessica Johnson Mark Seaman Mark Watt Stacie Watkins Jessica Watkins Jennifer Johnson Mike Johnson Brad Watt Jennifer Putin Rachel Watt Rachel Watt Mark Putin Christine Johnson Sarah Seaman Mark Prill Sarah Putin Stacie Prill Christine Obama Sarah Smith Jennifer Prill
 
     id        :  2
     user      :  TestRobot
-    path      :  My Path
-    title     :  My Title
-    text      :  None
+    path      :  Jennifer Williams
+    title     :  Jennifer Williams
+    text      :  Sarah Seaman Jessica Watt Brad Putin Josiah Seaman Mike Obama Sarah Seaman Mark Johnson Brad Watkins Eric Putin Jennifer Seaman Jessica Williams Josiah Smith Stacie Johnson Mark Putin Brad Johnson Jessica Watkins Eric Putin Mike Smith Jennifer Smith Eric Obama
 
     id        :  3
     user      :  TestRobot
-    path      :  My Path
-    title     :  My Title
-    text      :  None
+    path      :  Jennifer Putin
+    title     :  Jennifer Putin
+    text      :  Rachel Johnson Rachel Watkins Mark Smith Mike Williams Rachel Obama Josiah Putin Rachel Prill Jennifer Watt Brad Watkins Jessica Putin Eric Watkins Eric Smith Josiah Putin Brad Johnson Mark Obama Rachel Putin Mike Putin Rachel Johnson Brad Prill Mark Putin
 
     id        :  4
     user      :  TestRobot
-    path      :  My Path
-    title     :  My Title
-    text      :  None
-
-    id        :  5
-    user      :  TestRobot
-    path      :  yyy
-    title     :  xxx
-    text      :  xxx
+    path      :  Mark Putin
+    title     :  Mark Putin
+    text      :  Stacie Watkins Josiah Williams Jessica Obama Stacie Williams Rachel Johnson Brad Watt Eric Watt Stacie Obama Christine Smith Christine Smith Stacie Smith Sarah Smith Jennifer Watkins Josiah Smith Eric Seaman Mark Putin Mike Prill Sarah Johnson Brad Johnson Brad Johnson
 
 Checking for users
 Super user OK

@@ -16,6 +16,7 @@ bin/doc-redirect
 bin/doc-show
 bin/doc-tricks
 bin/e
+bin/edit-source
 bin/elapsed
 bin/filter-path
 bin/impact-data
@@ -36,6 +37,7 @@ bin/mkexe
 bin/mklinks
 bin/mkpy
 bin/mkscript
+bin/mktype
 bin/page
 bin/page-diff
 bin/page-get
@@ -54,6 +56,7 @@ bin/run
 bin/search
 bin/show
 bin/sql-reset
+bin/sql-sync
 bin/src
 bin/src-jack
 bin/tdiff
