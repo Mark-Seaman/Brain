@@ -1,5 +1,5 @@
 #!/bin/bash
-# Remove a test
+# Remove unwanted test
 
 rm $pt/$1.*
 
