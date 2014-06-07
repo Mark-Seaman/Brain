@@ -7,7 +7,9 @@ data_types = {
     'Doc': {
         'module': 'doc',
         'class': 
-        '''
+        '''#--------------------------
+class Doc(models.Model):
+
     user    = models.ForeignKey(User)
     path    = models.CharField (max_length=200)
     title   = models.CharField (max_length=200)
