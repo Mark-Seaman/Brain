@@ -43,6 +43,7 @@ doc-redirect
 doc-show
 doc-tricks
 e
+edit-source
 elapsed
 filter-path
 impact-data
@@ -63,6 +64,7 @@ mkexe
 mklinks
 mkpy
 mkscript
+mktype
 page
 page-get
 page-grab
@@ -80,6 +82,7 @@ run
 search
 show
 sql-reset
+sql-sync
 src
 src-jack
 te
