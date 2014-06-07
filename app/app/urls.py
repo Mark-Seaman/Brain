@@ -4,14 +4,13 @@
 from django.conf.urls import patterns, include, url
 
 urlpatterns = patterns('',  
-    url(r'^$', 'srs.views.home', name='/'),
-    url(r'^user$', 'srs.views.user', name='user'),
-    url(r'^test$', 'srs.views.test_view', name='test'),
-    url(r'^no_access$', 'srs.views.no_access'),
-
-    url(r'^contact', include('srs.contact_urls')),
+    url(r'^$', 'app.views.home', name='/'),
+    url(r'^user$', 'app.views.user', name='user'),
+    url(r'^test$', 'app.views.test_view', name='test'),
+    url(r'^no_access$', 'app.views.no_access'),
 
     (r'^login', 'django.contrib.auth.views.login', {'template_name': 'login.html'}),  
-    (r'^logout', 'srs.views.logout_view'),
+    (r'^logout', 'app.views.logout_view'),
 
+    url(r'^doc', include('doc.doc_urls')),
 )
