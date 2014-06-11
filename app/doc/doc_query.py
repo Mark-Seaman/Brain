@@ -2,10 +2,13 @@
 # Model for Doc records
 
 from django.contrib.auth.models import User
+from os.path import exists
 
 from doc_model import Doc
 from faker import fake_name,fake_address,fake_phone_number,fake_company
 
+
+DOC_ROOT = '/home/seaman/Documents/MyBook'
 
 # Get a table listing from the database
 def query_doc(user=None):
@@ -50,9 +53,50 @@ def add_fake_doc():
     return c
 
 
+# Add a new doc record
+def add_doc(path,title,content):
+    c = Doc()
+    c.user = User.objects.get(username='TestRobot')
+    c.path = path
+    c.title = title
+    c.text = content
+    c.save()
+    return c
+
+
 # Remove the all docs from the database
 def reset_doc_list():
     Doc.objects.all().delete()
+
+
+# Get the doc path within the doc tree
+def get_path(path):
+    return path.replace(DOC_ROOT+'/','')
+
+
+# Extract the page title from the content
+def get_title(content):
+  t = content.split('\n')[0]
+  t = t.replace('-*-muse-*-','')
+  t = t.replace('*','')
+  return t.strip()
+
+
+# Read the contents of a file
+def get_content(path):
+    return open(path).read()
+
+
+# Create a record by reading a file
+def import_doc(path):
+    if exists(path):
+        content = get_content(path)
+        d = add_doc(get_path(path),get_title(content),content)
+        print 'import_doc : title=__', get_title(content), '__'
+        #print get_content(path)
+        #print get_doc( User.objects.get(username='TestRobot'),d.pk)[4][1]
+    else:
+        print 'No file:',path
 
 
 # Perform a test on doc. If there are no docs then make some.
