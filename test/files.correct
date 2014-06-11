@@ -128,6 +128,8 @@ tablerw.tst.log
 user
 
 /home/seaman/Projects/brain/test:
+brain.correct
+brain.tst
 content.correct
 content.tst
 control.correct

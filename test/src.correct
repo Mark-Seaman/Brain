@@ -99,6 +99,7 @@ bin/var-save
 bin/var-set
 bin/var-write
 bin/welcome
+test/brain.tst
 test/content.tst
 test/control.tst
 test/data.tst

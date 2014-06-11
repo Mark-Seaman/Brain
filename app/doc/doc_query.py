@@ -28,8 +28,10 @@ def get_doc(user,id):
 
 # Print the object fields as a table
 def print_doc(doc):
-    for x in doc.table():
+    for x in doc.table()[:-1]:
         print '    %-10s:  %s' % (x[0],x[1])
+    x =  doc.table()[-1]
+    print '    %-10s:  %d characters' % (x[0],len(x[1]))
     print
 
 

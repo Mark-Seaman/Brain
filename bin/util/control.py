@@ -4,7 +4,6 @@
 from os         import system, environ, chdir
 from os.path    import join
 from argparse   import ArgumentParser
-from brain      import brain_list
 
 
 # Parse all of the command line arguments
@@ -26,7 +25,7 @@ def run_test_command():
     args = parse_args()
 
     if args.list:
-        brain_list()
+        print 'list'
         return
 
     if args.show:

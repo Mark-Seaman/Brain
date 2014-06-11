@@ -1,31 +1,1040 @@
 Run the script devtest
-4 Docs
-Doc list:  4 records
+20 Docs
+Doc list:  20 records
     id        :  1
     user      :  TestRobot
-    path      :  Jessica Smith
-    title     :  Jessica Smith
-    text      :  Jessica Johnson Mark Seaman Mark Watt Stacie Watkins Jessica Watkins Jennifer Johnson Mike Johnson Brad Watt Jennifer Putin Rachel Watt Rachel Watt Mark Putin Christine Johnson Sarah Seaman Mark Prill Sarah Putin Stacie Prill Christine Obama Sarah Smith Jennifer Prill
+    path      :  Christine Smith
+    title     :  Christine Smith
+    text      :  Brad Johnson Rachel Watt Mark Smith Jennifer Putin Mike Obama Brad Seaman Rachel Seaman Jennifer Seaman Stacie Watt Jessica Watt Jennifer Watkins Josiah Johnson Brad Smith Jennifer Johnson Mark Obama Eric Putin Christine Prill Stacie Watt Rachel Obama Christine Obama
 
     id        :  2
     user      :  TestRobot
-    path      :  Jennifer Williams
-    title     :  Jennifer Williams
-    text      :  Sarah Seaman Jessica Watt Brad Putin Josiah Seaman Mike Obama Sarah Seaman Mark Johnson Brad Watkins Eric Putin Jennifer Seaman Jessica Williams Josiah Smith Stacie Johnson Mark Putin Brad Johnson Jessica Watkins Eric Putin Mike Smith Jennifer Smith Eric Obama
+    path      :  Stacie Prill
+    title     :  Stacie Prill
+    text      :  Eric Smith Sarah Watt Brad Watt Eric Seaman Sarah Seaman Rachel Watt Josiah Watt Christine Williams Mark Watt Jennifer Watt Christine Putin Eric Smith Rachel Johnson Josiah Prill Mark Johnson Jessica Obama Rachel Watkins Mike Putin Jessica Prill Jessica Smith
 
     id        :  3
     user      :  TestRobot
-    path      :  Jennifer Putin
-    title     :  Jennifer Putin
-    text      :  Rachel Johnson Rachel Watkins Mark Smith Mike Williams Rachel Obama Josiah Putin Rachel Prill Jennifer Watt Brad Watkins Jessica Putin Eric Watkins Eric Smith Josiah Putin Brad Johnson Mark Obama Rachel Putin Mike Putin Rachel Johnson Brad Prill Mark Putin
+    path      :  Rachel Watt
+    title     :  Rachel Watt
+    text      :  Mark Watkins Christine Williams Brad Watkins Jessica Watkins Brad Watkins Jessica Williams Brad Johnson Jessica Smith Rachel Watt Christine Williams Brad Watkins Mark Watt Christine Johnson Mike Obama Stacie Smith Josiah Williams Christine Watkins Christine Obama Sarah Johnson Josiah Watt
 
     id        :  4
     user      :  TestRobot
-    path      :  Mark Putin
-    title     :  Mark Putin
-    text      :  Stacie Watkins Josiah Williams Jessica Obama Stacie Williams Rachel Johnson Brad Watt Eric Watt Stacie Obama Christine Smith Christine Smith Stacie Smith Sarah Smith Jennifer Watkins Josiah Smith Eric Seaman Mark Putin Mike Prill Sarah Johnson Brad Johnson Brad Johnson
+    path      :  Mike Seaman
+    title     :  Mike Seaman
+    text      :  Josiah Watkins Eric Obama Josiah Watt Brad Smith Brad Seaman Mike Prill Rachel Obama Josiah Watt Brad Watkins Mark Johnson Josiah Williams Brad Putin Brad Watkins Mark Prill Josiah Putin Mark Smith Brad Williams Rachel Seaman Josiah Putin Stacie Smith
 
-Checking for users
-Super user OK
-Test Robot OK
+    id        :  5
+    user      :  TestRobot
+    path      :  Public/ShrinkingWorld/Pricing
+    title     :  Public/ShrinkingWorld/Pricing
+    text      :  * Pricing *                                       -*-muse-*-
+
+We believe in no-nonsense pricing
+
+_____________________________________________________________________________
+
+**Pricing for services**
+
+    management          
+
+        definition      $100/hour
+        communication   $100/hour
+
+    development
+
+        application     $2,500/data type (or $100/hour)
+        JS front end    $100/hour
+        web content     $100/hour
+        web design      $100/hour
+
+    deployment
+
+        server setup     $1000/year
+        basic hosting    free
+        complex hosting  client is responsible for charges above $1000/year (unusual for heavy apps)
+        support          $100/hour
+
+    no-nonsense policy
+
+        we deliver results weekly
+        you tell us what you want done
+        we do what you decide
+
+
+**Choosing your price model**
+
+Choosing the correct pricing model for your project. How you want to pay for your project
+depends on a number of different factors.
+
+
+Effort-based pricing
+
+ * Pay for each hour of engineering services delivered.
+ * Works best if many details of the project are unknown.
+ * Good fit for exploratory work.
+ * Project can be guided throughout the development.
+ * Maximizes flexibility.
+
+Value-based price model:
+
+ * Pay for the value delivered.
+ * Works best if the project is well understood.
+ * Good for routine work like replacing existing functionality.
+ * Requires clear understanding of project scope.
+ * More expensive for exploratory projects.
+ * Requires concrete and robust project specifications.
+
+
+
+    id        :  6
+    user      :  TestRobot
+    path      :  Public/ShrinkingWorld/Pricing
+    title     :  Public/ShrinkingWorld/Pricing
+    text      :  * Pricing *                                       -*-muse-*-
+
+We believe in no-nonsense pricing
+
+_____________________________________________________________________________
+
+**Pricing for services**
+
+    management          
+
+        definition      $100/hour
+        communication   $100/hour
+
+    development
+
+        application     $2,500/data type (or $100/hour)
+        JS front end    $100/hour
+        web content     $100/hour
+        web design      $100/hour
+
+    deployment
+
+        server setup     $1000/year
+        basic hosting    free
+        complex hosting  client is responsible for charges above $1000/year (unusual for heavy apps)
+        support          $100/hour
+
+    no-nonsense policy
+
+        we deliver results weekly
+        you tell us what you want done
+        we do what you decide
+
+
+**Choosing your price model**
+
+Choosing the correct pricing model for your project. How you want to pay for your project
+depends on a number of different factors.
+
+
+Effort-based pricing
+
+ * Pay for each hour of engineering services delivered.
+ * Works best if many details of the project are unknown.
+ * Good fit for exploratory work.
+ * Project can be guided throughout the development.
+ * Maximizes flexibility.
+
+Value-based price model:
+
+ * Pay for the value delivered.
+ * Works best if the project is well understood.
+ * Good for routine work like replacing existing functionality.
+ * Requires clear understanding of project scope.
+ * More expensive for exploratory projects.
+ * Requires concrete and robust project specifications.
+
+
+
+    id        :  7
+    user      :  TestRobot
+    path      :  Public/ShrinkingWorld/Pricing
+    title     :  *
+    text      :  * Pricing *                                       -*-muse-*-
+
+We believe in no-nonsense pricing
+
+_____________________________________________________________________________
+
+**Pricing for services**
+
+    management          
+
+        definition      $100/hour
+        communication   $100/hour
+
+    development
+
+        application     $2,500/data type (or $100/hour)
+        JS front end    $100/hour
+        web content     $100/hour
+        web design      $100/hour
+
+    deployment
+
+        server setup     $1000/year
+        basic hosting    free
+        complex hosting  client is responsible for charges above $1000/year (unusual for heavy apps)
+        support          $100/hour
+
+    no-nonsense policy
+
+        we deliver results weekly
+        you tell us what you want done
+        we do what you decide
+
+
+**Choosing your price model**
+
+Choosing the correct pricing model for your project. How you want to pay for your project
+depends on a number of different factors.
+
+
+Effort-based pricing
+
+ * Pay for each hour of engineering services delivered.
+ * Works best if many details of the project are unknown.
+ * Good fit for exploratory work.
+ * Project can be guided throughout the development.
+ * Maximizes flexibility.
+
+Value-based price model:
+
+ * Pay for the value delivered.
+ * Works best if the project is well understood.
+ * Good for routine work like replacing existing functionality.
+ * Requires clear understanding of project scope.
+ * More expensive for exploratory projects.
+ * Requires concrete and robust project specifications.
+
+
+
+    id        :  8
+    user      :  TestRobot
+    path      :  Public/ShrinkingWorld/Pricing
+    title     :  *
+    text      :  * Pricing *                                       -*-muse-*-
+
+We believe in no-nonsense pricing
+
+_____________________________________________________________________________
+
+**Pricing for services**
+
+    management          
+
+        definition      $100/hour
+        communication   $100/hour
+
+    development
+
+        application     $2,500/data type (or $100/hour)
+        JS front end    $100/hour
+        web content     $100/hour
+        web design      $100/hour
+
+    deployment
+
+        server setup     $1000/year
+        basic hosting    free
+        complex hosting  client is responsible for charges above $1000/year (unusual for heavy apps)
+        support          $100/hour
+
+    no-nonsense policy
+
+        we deliver results weekly
+        you tell us what you want done
+        we do what you decide
+
+
+**Choosing your price model**
+
+Choosing the correct pricing model for your project. How you want to pay for your project
+depends on a number of different factors.
+
+
+Effort-based pricing
+
+ * Pay for each hour of engineering services delivered.
+ * Works best if many details of the project are unknown.
+ * Good fit for exploratory work.
+ * Project can be guided throughout the development.
+ * Maximizes flexibility.
+
+Value-based price model:
+
+ * Pay for the value delivered.
+ * Works best if the project is well understood.
+ * Good for routine work like replacing existing functionality.
+ * Requires clear understanding of project scope.
+ * More expensive for exploratory projects.
+ * Requires concrete and robust project specifications.
+
+
+
+    id        :  9
+    user      :  TestRobot
+    path      :  Public/ShrinkingWorld/Pricing
+    title     :  * Pricing *                                       -*-muse-*-
+    text      :  * Pricing *                                       -*-muse-*-
+
+We believe in no-nonsense pricing
+
+_____________________________________________________________________________
+
+**Pricing for services**
+
+    management          
+
+        definition      $100/hour
+        communication   $100/hour
+
+    development
+
+        application     $2,500/data type (or $100/hour)
+        JS front end    $100/hour
+        web content     $100/hour
+        web design      $100/hour
+
+    deployment
+
+        server setup     $1000/year
+        basic hosting    free
+        complex hosting  client is responsible for charges above $1000/year (unusual for heavy apps)
+        support          $100/hour
+
+    no-nonsense policy
+
+        we deliver results weekly
+        you tell us what you want done
+        we do what you decide
+
+
+**Choosing your price model**
+
+Choosing the correct pricing model for your project. How you want to pay for your project
+depends on a number of different factors.
+
+
+Effort-based pricing
+
+ * Pay for each hour of engineering services delivered.
+ * Works best if many details of the project are unknown.
+ * Good fit for exploratory work.
+ * Project can be guided throughout the development.
+ * Maximizes flexibility.
+
+Value-based price model:
+
+ * Pay for the value delivered.
+ * Works best if the project is well understood.
+ * Good for routine work like replacing existing functionality.
+ * Requires clear understanding of project scope.
+ * More expensive for exploratory projects.
+ * Requires concrete and robust project specifications.
+
+
+
+    id        :  10
+    user      :  TestRobot
+    path      :  Public/ShrinkingWorld/Pricing
+    title     :  * Pricing *                                       
+    text      :  * Pricing *                                       -*-muse-*-
+
+We believe in no-nonsense pricing
+
+_____________________________________________________________________________
+
+**Pricing for services**
+
+    management          
+
+        definition      $100/hour
+        communication   $100/hour
+
+    development
+
+        application     $2,500/data type (or $100/hour)
+        JS front end    $100/hour
+        web content     $100/hour
+        web design      $100/hour
+
+    deployment
+
+        server setup     $1000/year
+        basic hosting    free
+        complex hosting  client is responsible for charges above $1000/year (unusual for heavy apps)
+        support          $100/hour
+
+    no-nonsense policy
+
+        we deliver results weekly
+        you tell us what you want done
+        we do what you decide
+
+
+**Choosing your price model**
+
+Choosing the correct pricing model for your project. How you want to pay for your project
+depends on a number of different factors.
+
+
+Effort-based pricing
+
+ * Pay for each hour of engineering services delivered.
+ * Works best if many details of the project are unknown.
+ * Good fit for exploratory work.
+ * Project can be guided throughout the development.
+ * Maximizes flexibility.
+
+Value-based price model:
+
+ * Pay for the value delivered.
+ * Works best if the project is well understood.
+ * Good for routine work like replacing existing functionality.
+ * Requires clear understanding of project scope.
+ * More expensive for exploratory projects.
+ * Requires concrete and robust project specifications.
+
+
+
+    id        :  11
+    user      :  TestRobot
+    path      :  Public/ShrinkingWorld/Pricing
+    title     :  Pricing
+    text      :  * Pricing *                                       -*-muse-*-
+
+We believe in no-nonsense pricing
+
+_____________________________________________________________________________
+
+**Pricing for services**
+
+    management          
+
+        definition      $100/hour
+        communication   $100/hour
+
+    development
+
+        application     $2,500/data type (or $100/hour)
+        JS front end    $100/hour
+        web content     $100/hour
+        web design      $100/hour
+
+    deployment
+
+        server setup     $1000/year
+        basic hosting    free
+        complex hosting  client is responsible for charges above $1000/year (unusual for heavy apps)
+        support          $100/hour
+
+    no-nonsense policy
+
+        we deliver results weekly
+        you tell us what you want done
+        we do what you decide
+
+
+**Choosing your price model**
+
+Choosing the correct pricing model for your project. How you want to pay for your project
+depends on a number of different factors.
+
+
+Effort-based pricing
+
+ * Pay for each hour of engineering services delivered.
+ * Works best if many details of the project are unknown.
+ * Good fit for exploratory work.
+ * Project can be guided throughout the development.
+ * Maximizes flexibility.
+
+Value-based price model:
+
+ * Pay for the value delivered.
+ * Works best if the project is well understood.
+ * Good for routine work like replacing existing functionality.
+ * Requires clear understanding of project scope.
+ * More expensive for exploratory projects.
+ * Requires concrete and robust project specifications.
+
+
+
+    id        :  12
+    user      :  TestRobot
+    path      :  Public/ShrinkingWorld/Pricing
+    title     :  Pricing
+    text      :  * Pricing *                                       -*-muse-*-
+
+We believe in no-nonsense pricing
+
+_____________________________________________________________________________
+
+**Pricing for services**
+
+    management          
+
+        definition      $100/hour
+        communication   $100/hour
+
+    development
+
+        application     $2,500/data type (or $100/hour)
+        JS front end    $100/hour
+        web content     $100/hour
+        web design      $100/hour
+
+    deployment
+
+        server setup     $1000/year
+        basic hosting    free
+        complex hosting  client is responsible for charges above $1000/year (unusual for heavy apps)
+        support          $100/hour
+
+    no-nonsense policy
+
+        we deliver results weekly
+        you tell us what you want done
+        we do what you decide
+
+
+**Choosing your price model**
+
+Choosing the correct pricing model for your project. How you want to pay for your project
+depends on a number of different factors.
+
+
+Effort-based pricing
+
+ * Pay for each hour of engineering services delivered.
+ * Works best if many details of the project are unknown.
+ * Good fit for exploratory work.
+ * Project can be guided throughout the development.
+ * Maximizes flexibility.
+
+Value-based price model:
+
+ * Pay for the value delivered.
+ * Works best if the project is well understood.
+ * Good for routine work like replacing existing functionality.
+ * Requires clear understanding of project scope.
+ * More expensive for exploratory projects.
+ * Requires concrete and robust project specifications.
+
+
+
+    id        :  13
+    user      :  TestRobot
+    path      :  Public/ShrinkingWorld/Pricing
+    title     :  Pricing
+    text      :  * Pricing *                                       -*-muse-*-
+
+We believe in no-nonsense pricing
+
+_____________________________________________________________________________
+
+**Pricing for services**
+
+    management          
+
+        definition      $100/hour
+        communication   $100/hour
+
+    development
+
+        application     $2,500/data type (or $100/hour)
+        JS front end    $100/hour
+        web content     $100/hour
+        web design      $100/hour
+
+    deployment
+
+        server setup     $1000/year
+        basic hosting    free
+        complex hosting  client is responsible for charges above $1000/year (unusual for heavy apps)
+        support          $100/hour
+
+    no-nonsense policy
+
+        we deliver results weekly
+        you tell us what you want done
+        we do what you decide
+
+
+**Choosing your price model**
+
+Choosing the correct pricing model for your project. How you want to pay for your project
+depends on a number of different factors.
+
+
+Effort-based pricing
+
+ * Pay for each hour of engineering services delivered.
+ * Works best if many details of the project are unknown.
+ * Good fit for exploratory work.
+ * Project can be guided throughout the development.
+ * Maximizes flexibility.
+
+Value-based price model:
+
+ * Pay for the value delivered.
+ * Works best if the project is well understood.
+ * Good for routine work like replacing existing functionality.
+ * Requires clear understanding of project scope.
+ * More expensive for exploratory projects.
+ * Requires concrete and robust project specifications.
+
+
+
+    id        :  14
+    user      :  TestRobot
+    path      :  Public/ShrinkingWorld/Pricing
+    title     :  Pricing
+    text      :  * Pricing *                                       -*-muse-*-
+
+We believe in no-nonsense pricing
+
+_____________________________________________________________________________
+
+**Pricing for services**
+
+    management          
+
+        definition      $100/hour
+        communication   $100/hour
+
+    development
+
+        application     $2,500/data type (or $100/hour)
+        JS front end    $100/hour
+        web content     $100/hour
+        web design      $100/hour
+
+    deployment
+
+        server setup     $1000/year
+        basic hosting    free
+        complex hosting  client is responsible for charges above $1000/year (unusual for heavy apps)
+        support          $100/hour
+
+    no-nonsense policy
+
+        we deliver results weekly
+        you tell us what you want done
+        we do what you decide
+
+
+**Choosing your price model**
+
+Choosing the correct pricing model for your project. How you want to pay for your project
+depends on a number of different factors.
+
+
+Effort-based pricing
+
+ * Pay for each hour of engineering services delivered.
+ * Works best if many details of the project are unknown.
+ * Good fit for exploratory work.
+ * Project can be guided throughout the development.
+ * Maximizes flexibility.
+
+Value-based price model:
+
+ * Pay for the value delivered.
+ * Works best if the project is well understood.
+ * Good for routine work like replacing existing functionality.
+ * Requires clear understanding of project scope.
+ * More expensive for exploratory projects.
+ * Requires concrete and robust project specifications.
+
+
+
+    id        :  15
+    user      :  TestRobot
+    path      :  Public/ShrinkingWorld/Pricing
+    title     :  Pricing
+    text      :  * Pricing *                                       -*-muse-*-
+
+We believe in no-nonsense pricing
+
+_____________________________________________________________________________
+
+**Pricing for services**
+
+    management          
+
+        definition      $100/hour
+        communication   $100/hour
+
+    development
+
+        application     $2,500/data type (or $100/hour)
+        JS front end    $100/hour
+        web content     $100/hour
+        web design      $100/hour
+
+    deployment
+
+        server setup     $1000/year
+        basic hosting    free
+        complex hosting  client is responsible for charges above $1000/year (unusual for heavy apps)
+        support          $100/hour
+
+    no-nonsense policy
+
+        we deliver results weekly
+        you tell us what you want done
+        we do what you decide
+
+
+**Choosing your price model**
+
+Choosing the correct pricing model for your project. How you want to pay for your project
+depends on a number of different factors.
+
+
+Effort-based pricing
+
+ * Pay for each hour of engineering services delivered.
+ * Works best if many details of the project are unknown.
+ * Good fit for exploratory work.
+ * Project can be guided throughout the development.
+ * Maximizes flexibility.
+
+Value-based price model:
+
+ * Pay for the value delivered.
+ * Works best if the project is well understood.
+ * Good for routine work like replacing existing functionality.
+ * Requires clear understanding of project scope.
+ * More expensive for exploratory projects.
+ * Requires concrete and robust project specifications.
+
+
+
+    id        :  16
+    user      :  TestRobot
+    path      :  Public/ShrinkingWorld/Pricing
+    title     :  Pricing
+    text      :  * Pricing *                                       -*-muse-*-
+
+We believe in no-nonsense pricing
+
+_____________________________________________________________________________
+
+**Pricing for services**
+
+    management          
+
+        definition      $100/hour
+        communication   $100/hour
+
+    development
+
+        application     $2,500/data type (or $100/hour)
+        JS front end    $100/hour
+        web content     $100/hour
+        web design      $100/hour
+
+    deployment
+
+        server setup     $1000/year
+        basic hosting    free
+        complex hosting  client is responsible for charges above $1000/year (unusual for heavy apps)
+        support          $100/hour
+
+    no-nonsense policy
+
+        we deliver results weekly
+        you tell us what you want done
+        we do what you decide
+
+
+**Choosing your price model**
+
+Choosing the correct pricing model for your project. How you want to pay for your project
+depends on a number of different factors.
+
+
+Effort-based pricing
+
+ * Pay for each hour of engineering services delivered.
+ * Works best if many details of the project are unknown.
+ * Good fit for exploratory work.
+ * Project can be guided throughout the development.
+ * Maximizes flexibility.
+
+Value-based price model:
+
+ * Pay for the value delivered.
+ * Works best if the project is well understood.
+ * Good for routine work like replacing existing functionality.
+ * Requires clear understanding of project scope.
+ * More expensive for exploratory projects.
+ * Requires concrete and robust project specifications.
+
+
+
+    id        :  17
+    user      :  TestRobot
+    path      :  Public/ShrinkingWorld/Pricing
+    title     :  Pricing
+    text      :  * Pricing *                                       -*-muse-*-
+
+We believe in no-nonsense pricing
+
+_____________________________________________________________________________
+
+**Pricing for services**
+
+    management          
+
+        definition      $100/hour
+        communication   $100/hour
+
+    development
+
+        application     $2,500/data type (or $100/hour)
+        JS front end    $100/hour
+        web content     $100/hour
+        web design      $100/hour
+
+    deployment
+
+        server setup     $1000/year
+        basic hosting    free
+        complex hosting  client is responsible for charges above $1000/year (unusual for heavy apps)
+        support          $100/hour
+
+    no-nonsense policy
+
+        we deliver results weekly
+        you tell us what you want done
+        we do what you decide
+
+
+**Choosing your price model**
+
+Choosing the correct pricing model for your project. How you want to pay for your project
+depends on a number of different factors.
+
+
+Effort-based pricing
+
+ * Pay for each hour of engineering services delivered.
+ * Works best if many details of the project are unknown.
+ * Good fit for exploratory work.
+ * Project can be guided throughout the development.
+ * Maximizes flexibility.
+
+Value-based price model:
+
+ * Pay for the value delivered.
+ * Works best if the project is well understood.
+ * Good for routine work like replacing existing functionality.
+ * Requires clear understanding of project scope.
+ * More expensive for exploratory projects.
+ * Requires concrete and robust project specifications.
+
+
+
+    id        :  18
+    user      :  TestRobot
+    path      :  Public/ShrinkingWorld/Pricing
+    title     :  Pricing
+    text      :  * Pricing *                                       -*-muse-*-
+
+We believe in no-nonsense pricing
+
+_____________________________________________________________________________
+
+**Pricing for services**
+
+    management          
+
+        definition      $100/hour
+        communication   $100/hour
+
+    development
+
+        application     $2,500/data type (or $100/hour)
+        JS front end    $100/hour
+        web content     $100/hour
+        web design      $100/hour
+
+    deployment
+
+        server setup     $1000/year
+        basic hosting    free
+        complex hosting  client is responsible for charges above $1000/year (unusual for heavy apps)
+        support          $100/hour
+
+    no-nonsense policy
+
+        we deliver results weekly
+        you tell us what you want done
+        we do what you decide
+
+
+**Choosing your price model**
+
+Choosing the correct pricing model for your project. How you want to pay for your project
+depends on a number of different factors.
+
+
+Effort-based pricing
+
+ * Pay for each hour of engineering services delivered.
+ * Works best if many details of the project are unknown.
+ * Good fit for exploratory work.
+ * Project can be guided throughout the development.
+ * Maximizes flexibility.
+
+Value-based price model:
+
+ * Pay for the value delivered.
+ * Works best if the project is well understood.
+ * Good for routine work like replacing existing functionality.
+ * Requires clear understanding of project scope.
+ * More expensive for exploratory projects.
+ * Requires concrete and robust project specifications.
+
+
+
+    id        :  19
+    user      :  TestRobot
+    path      :  Public/ShrinkingWorld/Pricing
+    title     :  Pricing
+    text      :  * Pricing *                                       -*-muse-*-
+
+We believe in no-nonsense pricing
+
+_____________________________________________________________________________
+
+**Pricing for services**
+
+    management          
+
+        definition      $100/hour
+        communication   $100/hour
+
+    development
+
+        application     $2,500/data type (or $100/hour)
+        JS front end    $100/hour
+        web content     $100/hour
+        web design      $100/hour
+
+    deployment
+
+        server setup     $1000/year
+        basic hosting    free
+        complex hosting  client is responsible for charges above $1000/year (unusual for heavy apps)
+        support          $100/hour
+
+    no-nonsense policy
+
+        we deliver results weekly
+        you tell us what you want done
+        we do what you decide
+
+
+**Choosing your price model**
+
+Choosing the correct pricing model for your project. How you want to pay for your project
+depends on a number of different factors.
+
+
+Effort-based pricing
+
+ * Pay for each hour of engineering services delivered.
+ * Works best if many details of the project are unknown.
+ * Good fit for exploratory work.
+ * Project can be guided throughout the development.
+ * Maximizes flexibility.
+
+Value-based price model:
+
+ * Pay for the value delivered.
+ * Works best if the project is well understood.
+ * Good for routine work like replacing existing functionality.
+ * Requires clear understanding of project scope.
+ * More expensive for exploratory projects.
+ * Requires concrete and robust project specifications.
+
+
+
+    id        :  20
+    user      :  TestRobot
+    path      :  Public/ShrinkingWorld/Pricing
+    title     :  Pricing
+    text      :  * Pricing *                                       -*-muse-*-
+
+We believe in no-nonsense pricing
+
+_____________________________________________________________________________
+
+**Pricing for services**
+
+    management          
+
+        definition      $100/hour
+        communication   $100/hour
+
+    development
+
+        application     $2,500/data type (or $100/hour)
+        JS front end    $100/hour
+        web content     $100/hour
+        web design      $100/hour
+
+    deployment
+
+        server setup     $1000/year
+        basic hosting    free
+        complex hosting  client is responsible for charges above $1000/year (unusual for heavy apps)
+        support          $100/hour
+
+    no-nonsense policy
+
+        we deliver results weekly
+        you tell us what you want done
+        we do what you decide
+
+
+**Choosing your price model**
+
+Choosing the correct pricing model for your project. How you want to pay for your project
+depends on a number of different factors.
+
+
+Effort-based pricing
+
+ * Pay for each hour of engineering services delivered.
+ * Works best if many details of the project are unknown.
+ * Good fit for exploratory work.
+ * Project can be guided throughout the development.
+ * Maximizes flexibility.
+
+Value-based price model:
+
+ * Pay for the value delivered.
+ * Works best if the project is well understood.
+ * Good for routine work like replacing existing functionality.
+ * Requires clear understanding of project scope.
+ * More expensive for exploratory projects.
+ * Requires concrete and robust project specifications.
+
+
+
+Checking for users:
+   Super user - OK
+   Test Robot - OK
+   seaman - OK
 Scripts run successfully
