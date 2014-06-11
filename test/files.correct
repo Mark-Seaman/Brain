@@ -17,6 +17,8 @@ test
 /home/seaman/Projects/brain/app:
 app
 brain
+Brain.wpr
+Brain.wpu
 data
 doc
 generate
