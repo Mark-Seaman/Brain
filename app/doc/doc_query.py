@@ -10,6 +10,7 @@ from faker import fake_name,fake_address,fake_phone_number,fake_company
 
 DOC_ROOT = '/home/seaman/Documents/MyBook'
 
+
 # Get a table listing from the database
 def query_doc(user=None):
     if user:
@@ -55,10 +56,38 @@ def add_fake_doc():
     return c
 
 
+# Lookup the user by name
+def get_user(name):
+    return  User.objects.get(username=name)
+
+
+# Find the record if it exists
+def lookup_doc(path):
+    o =  Doc.objects.filter(path=path)
+    if len(o)==1:
+       return o[0]
+
+
+# Show the record for a document
+def show_doc(user, path):
+    u = get_user('seaman')
+    print 'User:', u.username
+    x = lookup_doc(path)
+    if x:
+        print_doc(x)
+    print 
+    print  x.table()[-1][1]
+    print
+
+
 # Add a new doc record
-def add_doc(path,title,content):
-    c = Doc()
-    c.user = User.objects.get(username='TestRobot')
+def add_doc(user, path, title, content):
+    o =  Doc.objects.filter(path=path)
+    if len(o)==1:
+        c = o[0]
+    else:
+        c = Doc()
+    c.user = user
     c.path = path
     c.title = title
     c.text = content
@@ -93,10 +122,8 @@ def get_content(path):
 def import_doc(path):
     if exists(path):
         content = get_content(path)
-        d = add_doc(get_path(path),get_title(content),content)
-        print 'import_doc : title=__', get_title(content), '__'
-        #print get_content(path)
-        #print get_doc( User.objects.get(username='TestRobot'),d.pk)[4][1]
+        d = add_doc( get_user('seaman'), get_path(path),get_title(content),content)
+        print 'import_doc : ', get_title(content)
     else:
         print 'No file:',path
 

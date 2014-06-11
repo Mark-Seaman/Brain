@@ -1,109 +1,31 @@
 brian list
-Doc list:  18 records
+Doc list:  5 records
     id        :  1
     user      :  TestRobot
-    path      :  Christine Smith
-    title     :  Christine Smith
-    text      :  267 characters
+    path      :  Mike Johnson
+    title     :  Mike Johnson
+    text      :  260 characters
 
     id        :  2
     user      :  TestRobot
-    path      :  Stacie Prill
-    title     :  Stacie Prill
-    text      :  259 characters
+    path      :  Brad Watkins
+    title     :  Brad Watkins
+    text      :  266 characters
 
     id        :  3
     user      :  TestRobot
-    path      :  Rachel Watt
-    title     :  Rachel Watt
-    text      :  289 characters
+    path      :  Mike Watkins
+    title     :  Mike Watkins
+    text      :  273 characters
 
     id        :  4
     user      :  TestRobot
-    path      :  Mike Seaman
-    title     :  Mike Seaman
-    text      :  251 characters
+    path      :  Josiah Watt
+    title     :  Josiah Watt
+    text      :  269 characters
 
     id        :  5
-    user      :  TestRobot
-    path      :  Public/ShrinkingWorld/Pricing
-    title     :  Public/ShrinkingWorld/Pricing
-    text      :  1558 characters
-
-    id        :  6
-    user      :  TestRobot
-    path      :  Public/ShrinkingWorld/Pricing
-    title     :  Public/ShrinkingWorld/Pricing
-    text      :  1558 characters
-
-    id        :  7
-    user      :  TestRobot
-    path      :  Public/ShrinkingWorld/Pricing
-    title     :  *
-    text      :  1558 characters
-
-    id        :  8
-    user      :  TestRobot
-    path      :  Public/ShrinkingWorld/Pricing
-    title     :  *
-    text      :  1558 characters
-
-    id        :  9
-    user      :  TestRobot
-    path      :  Public/ShrinkingWorld/Pricing
-    title     :  * Pricing *                                       -*-muse-*-
-    text      :  1558 characters
-
-    id        :  10
-    user      :  TestRobot
-    path      :  Public/ShrinkingWorld/Pricing
-    title     :  * Pricing *                                       
-    text      :  1558 characters
-
-    id        :  11
-    user      :  TestRobot
-    path      :  Public/ShrinkingWorld/Pricing
-    title     :  Pricing
-    text      :  1558 characters
-
-    id        :  12
-    user      :  TestRobot
-    path      :  Public/ShrinkingWorld/Pricing
-    title     :  Pricing
-    text      :  1558 characters
-
-    id        :  13
-    user      :  TestRobot
-    path      :  Public/ShrinkingWorld/Pricing
-    title     :  Pricing
-    text      :  1558 characters
-
-    id        :  14
-    user      :  TestRobot
-    path      :  Public/ShrinkingWorld/Pricing
-    title     :  Pricing
-    text      :  1558 characters
-
-    id        :  15
-    user      :  TestRobot
-    path      :  Public/ShrinkingWorld/Pricing
-    title     :  Pricing
-    text      :  1558 characters
-
-    id        :  16
-    user      :  TestRobot
-    path      :  Public/ShrinkingWorld/Pricing
-    title     :  Pricing
-    text      :  1558 characters
-
-    id        :  17
-    user      :  TestRobot
-    path      :  Public/ShrinkingWorld/Pricing
-    title     :  Pricing
-    text      :  1558 characters
-
-    id        :  18
-    user      :  TestRobot
+    user      :  seaman
     path      :  Public/ShrinkingWorld/Pricing
     title     :  Pricing
     text      :  1558 characters
@@ -113,7 +35,78 @@ brain import xxx
 No file: xxx
 
 brain import /home/seaman/Documents/MyBook/Public/ShrinkingWorld/Pricing
-import_doc : title=__ Pricing __
+import_doc :  Pricing
+
+brain show Public/ShrinkingWorld/Pricing
+User: seaman
+    id        :  5
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/Pricing
+    title     :  Pricing
+    text      :  1558 characters
+
+
+* Pricing *                                       -*-muse-*-
+
+We believe in no-nonsense pricing
+
+_____________________________________________________________________________
+
+**Pricing for services**
+
+    management          
+
+        definition      $100/hour
+        communication   $100/hour
+
+    development
+
+        application     $2,500/data type (or $100/hour)
+        JS front end    $100/hour
+        web content     $100/hour
+        web design      $100/hour
+
+    deployment
+
+        server setup     $1000/year
+        basic hosting    free
+        complex hosting  client is responsible for charges above $1000/year (unusual for heavy apps)
+        support          $100/hour
+
+    no-nonsense policy
+
+        we deliver results weekly
+        you tell us what you want done
+        we do what you decide
+
+
+**Choosing your price model**
+
+Choosing the correct pricing model for your project. How you want to pay for your project
+depends on a number of different factors.
+
+
+Effort-based pricing
+
+ * Pay for each hour of engineering services delivered.
+ * Works best if many details of the project are unknown.
+ * Good fit for exploratory work.
+ * Project can be guided throughout the development.
+ * Maximizes flexibility.
+
+Value-based price model:
+
+ * Pay for the value delivered.
+ * Works best if the project is well understood.
+ * Good for routine work like replacing existing functionality.
+ * Requires clear understanding of project scope.
+ * More expensive for exploratory projects.
+ * Requires concrete and robust project specifications.
+
+
+
+-------------------------------------------
+Errors
 
 brain import
 usage: rs brain import file

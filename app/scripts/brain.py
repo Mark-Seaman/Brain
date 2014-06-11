@@ -3,7 +3,7 @@
 
 from sys import argv
 
-from doc.doc_query import print_doc_list, import_doc
+from doc.doc_query import print_doc_list, import_doc, show_doc
 
 def run():
     #print 'argv: ',argv
@@ -12,9 +12,19 @@ def run():
         print 'usage: rs brain command parm'
         exit(0)
 
+
     if argv[3]=='list':
         print_doc_list()
         exit(0)
+
+
+    if argv[3]=='show':
+        if len(argv)<5:
+            print 'usage: rs brain show doc'
+        else:
+            show_doc('seaman', argv[4])
+        exit(0)
+
 
     if argv[3]=='import':
         if len(argv)<5:

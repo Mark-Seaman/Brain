@@ -13,6 +13,12 @@ echo brain import $HOME/Documents/MyBook/Public/ShrinkingWorld/Pricing
 rs brain import $HOME/Documents/MyBook/Public/ShrinkingWorld/Pricing
 
 echo
+echo brain show Public/ShrinkingWorld/Pricing
+rs   brain show Public/ShrinkingWorld/Pricing
+
+echo '-------------------------------------------'
+echo 'Errors'
+echo
 echo brain import
 rs brain import
 
