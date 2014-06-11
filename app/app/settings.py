@@ -71,3 +71,5 @@ DATABASES = {
     }
 }
 
+
+TEMPLATE_DEBUG = True
