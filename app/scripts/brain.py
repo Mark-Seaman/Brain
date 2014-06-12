@@ -3,7 +3,7 @@
 
 from sys import argv
 
-from doc.doc_query import print_doc_list, import_doc, show_doc
+from doc.doc_query import print_doc_list, import_doc, show_doc, reset_doc_list
 
 def run():
     #print 'argv: ',argv
@@ -14,7 +14,7 @@ def run():
 
 
     if argv[3]=='list':
-        print_doc_list()
+        print_doc_list(title='Plan', content='Market')
         exit(0)
 
 
@@ -25,6 +25,14 @@ def run():
             show_doc('seaman', argv[4])
         exit(0)
 
+
+    if argv[3]=='clear':
+        if len(argv)<5:
+            print 'usage: rs brain clear doc'
+        else:
+            reset_doc_list('seaman', argv[4])
+        exit(0)
+        
 
     if argv[3]=='import':
         if len(argv)<5:

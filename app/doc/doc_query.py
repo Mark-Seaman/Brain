@@ -38,10 +38,18 @@ def print_doc(doc):
 
 
 # Print the object list as a table
-def print_doc_list():
+def print_doc_list(user=None, path=None, title=None, content=None):
     all = Doc.objects.all()
+    if user:
+        all = all.filter(user=user)
+    if path:
+        all = all.filter(path__contains=path)
+    if content:
+        all = all.filter(text__contains=content)
+    if title:
+        all = all.filter(title__contains=title)
     print 'Doc list:  %d records' % len(all)
-    for c in all:
+    for c in all[:5]:
         print_doc(c)
 
 
@@ -108,15 +116,26 @@ def get_path(path):
 
 # Extract the page title from the content
 def get_title(content):
-  t = content.split('\n')[0]
-  t = t.replace('-*-muse-*-','')
-  t = t.replace('*','')
-  return t.strip()
+    muse = '-*-muse-*-'
+    t = content.split('\n')[0]
+    if muse in t:
+        t = t.replace('-*-muse-*-','')
+        t = t.replace('*','')
+        return t.strip()
 
 
 # Read the contents of a file
 def get_content(path):
-    return open(path).read()
+    print 'get_content ',path
+    try:
+        text = open(path).read()
+        text = text.decode('utf-8')
+        text = text.encode('ascii', 'ignore')
+        text = text.replace('\r','')
+        return text
+    except:
+        print 'Bad file content:', path
+        return 'Bad file content, '+path 
 
 
 # Create a record by reading a file
@@ -127,9 +146,15 @@ def import_doc(path):
             for f in listdir(path):
                 import_doc(path+'/'+f)
         else:
+            user    = get_user('seaman')
             content = get_content(path)
-            d = add_doc( get_user('seaman'), get_path(path),get_title(content),content)
-            print 'import_doc : ', get_title(content)
+            title   = get_title(content)
+            path    = get_path(path)
+            if title:
+                d = add_doc(user,path,title,content)
+                print 'import_doc : ', get_title(content)
+            else:
+                print 'BAD import_doc : ', path
     else:
         print 'No file:',path
 
