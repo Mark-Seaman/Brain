@@ -126,7 +126,7 @@ def get_title(content):
 
 # Read the contents of a file
 def get_content(path):
-    print 'get_content ',path
+    #print 'get_content ',path
     try:
         text = open(path).read()
         text = text.decode('utf-8')
