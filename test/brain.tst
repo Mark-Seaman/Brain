@@ -2,7 +2,7 @@
 # Test the brain functionality
 
 echo brian list
-rs brain list
+rs brain list | range 235 235
 
 echo
 echo brain import xxx

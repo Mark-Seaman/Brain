@@ -141,6 +141,5 @@ def test_code():
        how_many = 4
        for c in range(how_many):
            add_fake_doc()
-    print_doc_list()
-    print 'hey'
+    print '%d Doc Records'%(len(query_doc()))
 
