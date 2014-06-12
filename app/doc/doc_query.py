@@ -123,17 +123,31 @@ def get_path(path):
 # Extract the page title from the content
 def get_title(content):
     muse = '-*-muse-*-'
-    t = content.split('\n')[0]
-    if muse in t:
-        t = t.replace('-*-muse-*-','')
-        t = t.replace('*','')
-        return t.strip()
+    if content and len(content)>0:
+        t = content.split('\n')[0]
+        if muse in t:           
+            t = t.replace('-*-muse-*-','')
+            t = t.replace('*','')
+            return t.strip()
 
+# Remove non document before import
+def is_doc(path):
+    if '/images/' in path:
+        return False
+    if '/bower-components/' in path:
+        return False
+    if '/yeoman/' in path:
+        return False
+    suffixes = ['jpg','JPG', 'png', 'js','html','css']
+    for s in suffixes:
+        if path.endswith(s):
+            return False
+    return True
 
 # Read the contents of a file
 def get_content(path):
     #print 'get_content ',path
-    try:
+    try:    
         text = open(path).read()
         text = text.decode('utf-8')
         text = text.encode('ascii', 'ignore')
@@ -152,15 +166,16 @@ def import_doc(path):
             for f in listdir(path):
                 import_doc(path+'/'+f)
         else:
-            user    = get_user('seaman')
-            content = get_content(path)
-            title   = get_title(content)
-            path    = get_path(path)
-            if title:
-                d = add_doc(user,path,title,content)
-                print 'import_doc : ', get_title(content)
-            else:
-                print 'BAD import_doc : ', path
+            if is_doc(path):
+                user    = get_user('seaman')
+                content = get_content(path)
+                title   = get_title(content)
+                path    = get_path(path)
+                if title:
+                    d = add_doc(user,path,title,content)
+                    print 'import_doc : ', get_title(content)
+                else:
+                    print 'BAD import_doc : ', path
     else:
         print 'No file:',path
 
