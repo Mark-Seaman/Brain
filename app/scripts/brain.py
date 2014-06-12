@@ -3,7 +3,7 @@
 
 from sys import argv
 
-from doc.doc_query import print_doc_list, import_doc, show_doc, reset_doc_list
+from doc.doc_query import print_doc_list, import_doc, show_doc, reset_doc_list,search
 
 def run():
     #print 'argv: ',argv
@@ -13,8 +13,11 @@ def run():
         exit(0)
 
 
-    if argv[3]=='list':
-        print_doc_list(title='Plan', content='Market')
+    if argv[3].startswith('list'):
+        expr = 'list('+','.join(argv[4:])+')'
+        print  expr
+        search(argv[4:])
+        #print_doc_list(title='Plan', content='Market')
         exit(0)
 
 

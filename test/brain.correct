@@ -1,9 +1,6 @@
 brian list
 actual: 19 expected: 235
 
-brain import xxx
-No file: xxx
-
 brain import /home/seaman/Documents/MyBook/Public/ShrinkingWorld/Pricing
 import_doc :  Pricing
 
@@ -127,3 +124,6 @@ command = [list]
 
 brain
 usage: rs brain command parm
+
+brain import xxx
+No file: xxx

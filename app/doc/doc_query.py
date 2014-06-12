@@ -37,19 +37,25 @@ def print_doc(doc):
     print
 
 
-# Print the object list as a table
-def print_doc_list(user=None, path=None, title=None, content=None):
+# Find docs that match this criteria
+def search(criteria):
     all = Doc.objects.all()
-    if user:
-        all = all.filter(user=user)
-    if path:
-        all = all.filter(path__contains=path)
-    if content:
-        all = all.filter(text__contains=content)
-    if title:
-        all = all.filter(title__contains=title)
-    print 'Doc list:  %d records' % len(all)
-    for c in all[:5]:
+    for c in criteria:
+        value = c.split('=')[1]
+        if c.startswith('user'):
+            all = all.filter(user=user)
+        if c.startswith('path'):
+            all = all.filter(path__contains=value)
+        if c.startswith('content'):             
+            all = all.filter(text__contains=value)
+        if c.startswith('title'):
+            all = all.filter(title__contains=value)
+    print_doc_list(all) 
+    
+# Print the object list as a table
+def print_doc_list(docs):
+    print 'Doc list:  %d records' % len(docs)
+    for c in docs[:5]:
         print_doc(c)
 
 
