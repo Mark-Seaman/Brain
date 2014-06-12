@@ -1,5 +1,5 @@
 brian list
-Doc list:  5 records
+Doc list:  39 records
     id        :  1
     user      :  TestRobot
     path      :  Mike Johnson
@@ -30,12 +30,256 @@ Doc list:  5 records
     title     :  Pricing
     text      :  1558 characters
 
+    id        :  6
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/SoftwareEngineering
+    title     :  Software Engineering
+    text      :  4386 characters
+
+    id        :  7
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/PythonWebDev
+    title     :  Python Web Developers
+    text      :  312 characters
+
+    id        :  8
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/FCIP
+    title     :  Ft. Collins Internet Pros
+    text      :  643 characters
+
+    id        :  9
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/SoftwareTraining
+    title     :  Software Training
+    text      :  681 characters
+
+    id        :  10
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/MySlides/MySlides/PublisherUserStories
+    title     :  Publisher User Stories
+    text      :  236 characters
+
+    id        :  11
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/MySlides/MySlides/Index
+    title     :  Table of Contents
+    text      :  1229 characters
+
+    id        :  12
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/MySlides/MySlides/MyBook
+    title     :  My Book
+    text      :  724 characters
+
+    id        :  13
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/MySlides/MySlides/AboutMyBookOnline
+    title     :  About My Book Online
+    text      :  737 characters
+
+    id        :  14
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/MySlides/MySlides/Home
+    title     :  My Slides Online
+    text      :  725 characters
+
+    id        :  15
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/MySlides/MySlides/ReaderUserStories
+    title     :  Reader User Stories
+    text      :  573 characters
+
+    id        :  16
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/MySlides/MySlides/ModifyAnExistingTopic
+    title     :  Modify an Existing Topic
+    text      :  280 characters
+
+    id        :  17
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/MySlides/MySlides/MyBookForTheDeveloper
+    title     :  My Book for the Developer
+    text      :  316 characters
+
+    id        :  18
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/MySlides/MySlides/WriterUserStories
+    title     :  Writer User Stories
+    text      :  466 characters
+
+    id        :  19
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/MySlides/MySlides/GetInvolved
+    title     :  Get Involved
+    text      :  891 characters
+
+    id        :  20
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/MySlides/MySlides/MyBookForThePublisher
+    title     :  My Book for the Publisher
+    text      :  1285 characters
+
+    id        :  21
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/MySlides/MySlides/SearchingMyBook
+    title     :  Searching MyBook
+    text      :  857 characters
+
+    id        :  22
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/MySlides/MySlides/OnlineReading
+    title     :  Online reading
+    text      :  1305 characters
+
+    id        :  23
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/MySlides/MySlides/WriteANewArticle
+    title     :  Write a new article
+    text      :  330 characters
+
+    id        :  24
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/MySlides/MySlides/MyBookForTheAuthor
+    title     :  My Book for the Author
+    text      :  377 characters
+
+    id        :  25
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/MySlides/MySlides/FeatureWishList
+    title     :  Feature wish list
+    text      :  330 characters
+
+    id        :  26
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/MySlides/MySlides/Title
+    title     :  My Slides Online
+    text      :  132 characters
+
+    id        :  27
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/MySlides/MySlides/DeleteATopic
+    title     :  Delete a topic
+    text      :  629 characters
+
+    id        :  28
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/MySlides/MySlides/ProjectGoals
+    title     :  Project Goals
+    text      :  519 characters
+
+    id        :  29
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/MySlides/MySlides/Technology
+    title     :  Technology
+    text      :  1990 characters
+
+    id        :  30
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/MySlides/MySlides/DeveloperNotes
+    title     :  Developer notes
+    text      :  290 characters
+
+    id        :  31
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/MySlides/MySlides/MyBookForTheReader
+    title     :  My Book for the Reader
+    text      :  264 characters
+
+    id        :  32
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/MySlides/MySlides/ChangeTheReadingOrder
+    title     :  Change the Reading Order
+    text      :  286 characters
+
+    id        :  33
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/MySlides/MySlides/SelfHosting
+    title     :  Self hosting
+    text      :  800 characters
+
+    id        :  34
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/MySlides/MySlides/MyBookHosting
+    title     :  My Book Hosting
+    text      :  577 characters
+
+    id        :  35
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/MySlides/MySlides/BuildingUserStories
+    title     :  Building user stories
+    text      :  931 characters
+
+    id        :  36
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/MySlides/MySlides/DownloadMyBook
+    title     :  Download My Book
+    text      :  409 characters
+
+    id        :  37
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/SlideSlinger
+    title     :  Slide Slinger
+    text      :  278 characters
+
+    id        :  38
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/OpenSource
+    title     :  Open Source Projects
+    text      :  501 characters
+
+    id        :  39
+    user      :  seaman
+    path      :  Public/ShrinkingWorld/pyconlessons
+    title     :  Lessons from Python Conference
+    text      :  464 characters
+
 
 brain import xxx
 No file: xxx
 
 brain import /home/seaman/Documents/MyBook/Public/ShrinkingWorld/Pricing
 import_doc :  Pricing
+
+brain import /home/seaman/Documents/MyBook/Public/ShrinkingWorld
+Directory: /home/seaman/Documents/MyBook/Public/ShrinkingWorld
+import_doc :  Software Engineering
+import_doc :  Python Web Developers
+import_doc :  Ft. Collins Internet Pros
+import_doc :  Software Training
+Directory: /home/seaman/Documents/MyBook/Public/ShrinkingWorld/MySlides
+Directory: /home/seaman/Documents/MyBook/Public/ShrinkingWorld/MySlides/MySlides
+import_doc :  Publisher User Stories
+import_doc :  Table of Contents
+import_doc :  My Book
+import_doc :  About My Book Online
+import_doc :  My Slides Online
+import_doc :  Reader User Stories
+import_doc :  Modify an Existing Topic
+import_doc :  My Book for the Developer
+import_doc :  Writer User Stories
+import_doc :  Get Involved
+import_doc :  My Book for the Publisher
+import_doc :  Searching MyBook
+import_doc :  Online reading
+import_doc :  Write a new article
+import_doc :  My Book for the Author
+import_doc :  Feature wish list
+import_doc :  My Slides Online
+import_doc :  Delete a topic
+import_doc :  Project Goals
+import_doc :  Technology
+import_doc :  Developer notes
+import_doc :  My Book for the Reader
+import_doc :  Change the Reading Order
+import_doc :  Self hosting
+import_doc :  My Book Hosting
+import_doc :  Building user stories
+import_doc :  Download My Book
+import_doc :  Slide Slinger
+import_doc :  Open Source Projects
+import_doc :  Pricing
+import_doc :  Lessons from Python Conference
 
 brain show Public/ShrinkingWorld/Pricing
 User: seaman

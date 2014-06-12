@@ -2,7 +2,8 @@
 # Model for Doc records
 
 from django.contrib.auth.models import User
-from os.path import exists
+from os.path import exists,isdir
+from os import listdir
 
 from doc_model import Doc
 from faker import fake_name,fake_address,fake_phone_number,fake_company
@@ -121,9 +122,14 @@ def get_content(path):
 # Create a record by reading a file
 def import_doc(path):
     if exists(path):
-        content = get_content(path)
-        d = add_doc( get_user('seaman'), get_path(path),get_title(content),content)
-        print 'import_doc : ', get_title(content)
+        if isdir(path):
+            print 'Directory:',path
+            for f in listdir(path):
+                import_doc(path+'/'+f)
+        else:
+            content = get_content(path)
+            d = add_doc( get_user('seaman'), get_path(path),get_title(content),content)
+            print 'import_doc : ', get_title(content)
     else:
         print 'No file:',path
 
