@@ -2,7 +2,7 @@
 # Model for Doc records
 
 from django.contrib.auth.models import User
-from os.path import exists,isdir
+from os.path import exists,isdir,getmtime
 from os import listdir
 
 from doc_model import Doc
@@ -96,7 +96,7 @@ def show_doc(user, path):
 
 
 # Add a new doc record
-def add_doc(user, path, title, content):
+def add_doc(user, path, title, content, date=None):
     o =  Doc.objects.filter(path=path)
     if len(o)==1:
         c = o[0]
@@ -106,6 +106,7 @@ def add_doc(user, path, title, content):
     c.path = path
     c.title = title
     c.text = content
+    #c.time = date
     c.save()
     return c
 
@@ -172,7 +173,7 @@ def import_doc(path):
                 title   = get_title(content)
                 path    = get_path(path)
                 if title:
-                    d = add_doc(user,path,title,content)
+                    d = add_doc(user,path,title,content,date)
                     print 'import_doc : ', get_title(content)
                 else:
                     print 'BAD import_doc : ', path
