@@ -1,100 +1,88 @@
 brian list
 list()
-Doc list:  2478 records
+Doc list:  1298 records
     id        :  1
     user      :  seaman
-    path      :  Public/ShrinkingWorld/SoftwareEngineering
-    title     :  Software Engineering
-    text      :  4386 characters
+    path      :  /home/seaman/Documents/MyBook/Public/ShrinkingWorld/Pricing
+    title     :  Pricing
+    text      :  1558 characters
 
     id        :  2
     user      :  seaman
-    path      :  Public/ShrinkingWorld/PythonWebDev
-    title     :  Python Web Developers
-    text      :  312 characters
+    path      :  /home/seaman/Documents/MyBook/Public/ShrinkingWorld/SoftwareEngineering
+    title     :  Software Engineering
+    text      :  4386 characters
 
     id        :  3
     user      :  seaman
-    path      :  Public/ShrinkingWorld/FCIP
-    title     :  Ft. Collins Internet Pros
-    text      :  643 characters
+    path      :  /home/seaman/Documents/MyBook/Public/ShrinkingWorld/PythonWebDev
+    title     :  Python Web Developers
+    text      :  312 characters
 
     id        :  4
     user      :  seaman
-    path      :  Public/ShrinkingWorld/SoftwareTraining
-    title     :  Software Training
-    text      :  681 characters
+    path      :  /home/seaman/Documents/MyBook/Public/ShrinkingWorld/FCIP
+    title     :  Ft. Collins Internet Pros
+    text      :  643 characters
 
     id        :  5
     user      :  seaman
-    path      :  Public/ShrinkingWorld/MySlides/MySlides/PublisherUserStories
-    title     :  Publisher User Stories
-    text      :  235 characters
+    path      :  /home/seaman/Documents/MyBook/Public/ShrinkingWorld/SoftwareTraining
+    title     :  Software Training
+    text      :  681 characters
 
 brian list(path=Git)
 list(path=Git)
-Doc list:  21 records
-    id        :  166
+Doc list:  10 records
+    id        :  628
     user      :  seaman
     path      :  /home/seaman/Documents/Brain/UsingGit
     title     :  Using Git
     text      :  384 characters
 
-    id        :  187
+    id        :  649
     user      :  seaman
     path      :  /home/seaman/Documents/Brain/GitSharedBranch
     title     :  Shared Git Branch
     text      :  561 characters
 
-    id        :  276
+    id        :  738
     user      :  seaman
     path      :  /home/seaman/Documents/Brain/GitDocuments
     title     :  Git Documents
     text      :  760 characters
 
-    id        :  307
+    id        :  769
     user      :  seaman
     path      :  /home/seaman/Documents/Brain/WmGitRepos
     title     :  Wm Git Repos
     text      :  861 characters
 
-    id        :  373
+    id        :  835
     user      :  seaman
     path      :  /home/seaman/Documents/Brain/GitHub
     title     :  Git Hub
     text      :  417 characters
 
 list(title=Plan,content=Market)
-Doc list:  9 records
-    id        :  151
+Doc list:  3 records
+    id        :  613
     user      :  seaman
     path      :  /home/seaman/Documents/Brain/Plan
     title     :  Plan
     text      :  407 characters
 
-    id        :  481
+    id        :  943
     user      :  seaman
     path      :  /home/seaman/Documents/Brain/AppThumper/planner/SWS/Marketing
     title     :  SWS Marketing Plan
     text      :  869 characters
 
-    id        :  623
+    id        :  1085
     user      :  seaman
     path      :  /home/seaman/Documents/Brain/MarketingPlan
     title     :  Marketing Plan
     text      :  1996 characters
-
-    id        :  1512
-    user      :  seaman
-    path      :  seaman/Brain/Plan
-    title     :  Plan
-    text      :  407 characters
-
-    id        :  1842
-    user      :  seaman
-    path      :  seaman/Brain/AppThumper/planner/SWS/Marketing
-    title     :  SWS Marketing Plan
-    text      :  869 characters
 
 
 brain import /home/seaman/Documents/MyBook/Public/ShrinkingWorld/Pricing
@@ -140,11 +128,11 @@ import_doc :  Open Source Projects
 import_doc :  Pricing
 import_doc :  Lessons from Python Conference
 
-brain show Public/ShrinkingWorld/Pricing
+brain show /home/seaman/Documents/MyBook/Public/ShrinkingWorld/Pricing
 User: seaman
-    id        :  34
+    id        :  1
     user      :  seaman
-    path      :  Public/ShrinkingWorld/Pricing
+    path      :  /home/seaman/Documents/MyBook/Public/ShrinkingWorld/Pricing
     title     :  Pricing
     text      :  1558 characters
 

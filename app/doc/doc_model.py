@@ -10,8 +10,10 @@
 from django.db import models
 from django.contrib.auth.models import User
 from django.core.urlresolvers import reverse
-from datetime import datetime
 
+
+    
+from datetime import datetime
 
 class Doc(models.Model):
 
@@ -21,6 +23,7 @@ class Doc(models.Model):
     text    = models.TextField ()
     name    = models.CharField (max_length=40)
     time    = models.DateTimeField(default=datetime.now())  
+
 
     # Format a record as a string
     def __unicode__(self):

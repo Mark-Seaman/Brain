@@ -19,8 +19,8 @@ rs   brain import $HOME/Documents/MyBook/Public/ShrinkingWorld
 
 #Show
 echo
-echo brain show Public/ShrinkingWorld/Pricing
-rs   brain show Public/ShrinkingWorld/Pricing
+echo brain show  $HOME/Documents/MyBook/Public/ShrinkingWorld/Pricing
+rs   brain show  $HOME/Documents/MyBook/Public/ShrinkingWorld/Pricing
 
 # Errors
 echo '-------------------------------------------'

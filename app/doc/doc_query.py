@@ -90,13 +90,15 @@ def show_doc(user, path):
     x = lookup_doc(path)
     if x:
         print_doc(x)
-    print 
-    print  x.table()[-1][1]
-    print
+        print 
+        print  x.table()[-1][1]
+        print
+    else:
+        print 'No doc found,',path
 
 
 # Add a new doc record
-def add_doc(user, path, title, content, date=None):
+def add_doc(user, path, title, content, time=None):
     o =  Doc.objects.filter(path=path)
     if len(o)==1:
         c = o[0]
@@ -106,7 +108,7 @@ def add_doc(user, path, title, content, date=None):
     c.path = path
     c.title = title
     c.text = content
-    #c.time = date
+    c.time = time
     c.save()
     return c
 
@@ -171,9 +173,9 @@ def import_doc(path):
                 user    = get_user('seaman')
                 content = get_content(path)
                 title   = get_title(content)
-                path    = get_path(path)
+                #path    = get_path(path)
                 if title:
-                    d = add_doc(user,path,title,content,date)
+                    d = add_doc(user,path,title,content,getmtime(path))
                     print 'import_doc : ', get_title(content)
                 else:
                     print 'BAD import_doc : ', path
