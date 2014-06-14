@@ -10,6 +10,18 @@ Create the source code for a Django data type,  doc/Doc
      doc/templates/doc_list.html
      doc/templates/doc_test.html
      doc/templates/doc_edit.html
+Create the source code for a Django data type,  time/Time
+     time/time_views.py
+     time/time_urls.py
+     time/time_model.py
+     time/test_time.py
+     time/time_tests.py
+     time/templates/time_detail.html
+     time/templates/time_delete.html
+     time/templates/time.html
+     time/templates/time_list.html
+     time/templates/time_test.html
+     time/templates/time_edit.html
 Creating tables ...
 Installing custom SQL ...
 Installing indexes ...

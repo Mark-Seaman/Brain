@@ -45,6 +45,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django_extensions',
     'doc',
+    #'time',
 )
 
 MIDDLEWARE_CLASSES = (

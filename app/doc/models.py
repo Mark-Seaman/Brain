@@ -1,1 +1,1 @@
-from doc import Doc
+from doc.doc_model import Doc

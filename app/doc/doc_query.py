@@ -30,10 +30,12 @@ def get_doc(user,id):
 
 # Print the object fields as a table
 def print_doc(doc):
-    for x in doc.table()[:-1]:
+    for x in doc.table()[:-2]:
         print '    %-10s:  %s' % (x[0],x[1])
-    x =  doc.table()[-1]
+    x =  doc.table()[-2]
     print '    %-10s:  %d characters' % (x[0],len(x[1]))
+    for x in doc.table()[-1:]:
+        print '    %-10s:  %s' % (x[0],x[1])
     print
 
 
@@ -55,7 +57,7 @@ def search(criteria):
 # Print the object list as a table
 def print_doc_list(docs):
     print 'Doc list:  %d records' % len(docs)
-    for c in docs[:5]:
+    for c in docs[:6]:
         print_doc(c)
 
 
@@ -85,6 +87,17 @@ def lookup_doc(path):
 
 # Show the record for a document
 def show_doc(user, path):
+    '''
+    Show Formats:
+    Paths
+    Table
+    Index
+    Titles
+    Lines
+    HTML
+    CSV
+    JSON
+    '''
     u = get_user('seaman')
     print 'User:', u.username
     x = lookup_doc(path)
@@ -175,7 +188,7 @@ def import_doc(path):
                 title   = get_title(content)
                 #path    = get_path(path)
                 if title:
-                    d = add_doc(user,path,title,content,getmtime(path))
+                    d = add_doc(user,path,title,content) #,getmtime(path))
                     print 'import_doc : ', get_title(content)
                 else:
                     print 'BAD import_doc : ', path

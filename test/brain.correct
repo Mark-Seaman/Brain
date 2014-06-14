@@ -1,88 +1,136 @@
 brian list
 list()
-Doc list:  1298 records
+Doc list:  2524 records
     id        :  1
     user      :  seaman
-    path      :  /home/seaman/Documents/MyBook/Public/ShrinkingWorld/Pricing
-    title     :  Pricing
-    text      :  1558 characters
+    path      :  /home/seaman/Projects/mybook/webapps/mybook_media/slides-old/Index
+    title     :  Hammer Tricks
+    text      :  160 characters
+    time      :  2014-06-14 18:43:42.184000
 
     id        :  2
     user      :  seaman
-    path      :  /home/seaman/Documents/MyBook/Public/ShrinkingWorld/SoftwareEngineering
-    title     :  Software Engineering
-    text      :  4386 characters
+    path      :  /home/seaman/Projects/mybook/webapps/mybook_media/forms/Home
+    title     :  Aweber Sign Up Scripts
+    text      :  213 characters
+    time      :  2014-06-14 18:43:42.207000
 
     id        :  3
     user      :  seaman
-    path      :  /home/seaman/Documents/MyBook/Public/ShrinkingWorld/PythonWebDev
-    title     :  Python Web Developers
-    text      :  312 characters
+    path      :  /home/seaman/Projects/mybook/webapps/mybook_media/slides/text/Meeting-2014-04-30
+    title     :  Meeting 2-14-4-30
+    text      :  1796 characters
+    time      :  2014-06-14 18:43:42.566000
 
     id        :  4
     user      :  seaman
-    path      :  /home/seaman/Documents/MyBook/Public/ShrinkingWorld/FCIP
-    title     :  Ft. Collins Internet Pros
-    text      :  643 characters
+    path      :  /home/seaman/Projects/mybook/webapps/mybook/test/test-content
+    title     :  Table of Contents
+    text      :  314 characters
+    time      :  2014-06-14 18:43:42.648000
 
     id        :  5
     user      :  seaman
-    path      :  /home/seaman/Documents/MyBook/Public/ShrinkingWorld/SoftwareTraining
-    title     :  Software Training
-    text      :  681 characters
+    path      :  /home/seaman/Projects/mybook/webapps/mybook/test/sample-content
+    title     :  Table of Contents
+    text      :  314 characters
+    time      :  2014-06-14 18:43:42.661000
+
+    id        :  6
+    user      :  seaman
+    path      :  /home/seaman/Projects/mybook/webapps/mybook/test/correct-paragraphs
+    title     :  Super-Power Handbook
+    text      :  5801 characters
+    time      :  2014-06-14 18:43:42.697000
 
 brian list(path=Git)
 list(path=Git)
-Doc list:  10 records
-    id        :  628
+Doc list:  21 records
+    id        :  731
     user      :  seaman
-    path      :  /home/seaman/Documents/Brain/UsingGit
+    path      :  /home/seaman/Projects/mybook/webapps/mybook/user_doc/seaman/Brain/UsingGit
     title     :  Using Git
     text      :  384 characters
+    time      :  2014-06-14 18:43:51.091000
 
-    id        :  649
+    id        :  752
     user      :  seaman
-    path      :  /home/seaman/Documents/Brain/GitSharedBranch
+    path      :  /home/seaman/Projects/mybook/webapps/mybook/user_doc/seaman/Brain/GitSharedBranch
     title     :  Shared Git Branch
     text      :  561 characters
+    time      :  2014-06-14 18:43:51.263000
 
-    id        :  738
+    id        :  841
     user      :  seaman
-    path      :  /home/seaman/Documents/Brain/GitDocuments
+    path      :  /home/seaman/Projects/mybook/webapps/mybook/user_doc/seaman/Brain/GitDocuments
     title     :  Git Documents
     text      :  760 characters
+    time      :  2014-06-14 18:43:52.011000
 
-    id        :  769
+    id        :  872
     user      :  seaman
-    path      :  /home/seaman/Documents/Brain/WmGitRepos
+    path      :  /home/seaman/Projects/mybook/webapps/mybook/user_doc/seaman/Brain/WmGitRepos
     title     :  Wm Git Repos
     text      :  861 characters
+    time      :  2014-06-14 18:43:52.260000
 
-    id        :  835
+    id        :  938
     user      :  seaman
-    path      :  /home/seaman/Documents/Brain/GitHub
+    path      :  /home/seaman/Projects/mybook/webapps/mybook/user_doc/seaman/Brain/GitHub
     title     :  Git Hub
     text      :  417 characters
+    time      :  2014-06-14 18:43:52.856000
+
+    id        :  1002
+    user      :  seaman
+    path      :  /home/seaman/Projects/mybook/webapps/mybook/user_doc/seaman/Brain/PlatformGit
+    title     :  Update Platform GIT
+    text      :  2983 characters
+    time      :  2014-06-14 18:43:53.375000
 
 list(title=Plan,content=Market)
-Doc list:  3 records
-    id        :  613
+Doc list:  9 records
+    id        :  716
     user      :  seaman
-    path      :  /home/seaman/Documents/Brain/Plan
+    path      :  /home/seaman/Projects/mybook/webapps/mybook/user_doc/seaman/Brain/Plan
     title     :  Plan
     text      :  407 characters
+    time      :  2014-06-14 18:43:50.979000
 
-    id        :  943
+    id        :  1046
     user      :  seaman
-    path      :  /home/seaman/Documents/Brain/AppThumper/planner/SWS/Marketing
+    path      :  /home/seaman/Projects/mybook/webapps/mybook/user_doc/seaman/Brain/AppThumper/planner/SWS/Marketing
     title     :  SWS Marketing Plan
     text      :  869 characters
+    time      :  2014-06-14 18:43:53.777000
 
-    id        :  1085
+    id        :  1188
     user      :  seaman
-    path      :  /home/seaman/Documents/Brain/MarketingPlan
+    path      :  /home/seaman/Projects/mybook/webapps/mybook/user_doc/seaman/Brain/MarketingPlan
     title     :  Marketing Plan
     text      :  1996 characters
+    time      :  2014-06-14 18:43:55.133000
+
+    id        :  1503
+    user      :  seaman
+    path      :  /home/seaman/Projects/mybook/webapps/mybook/user_doc/seaman/BizPlan/SWS/TrainingBizPlan
+    title     :  Training Biz Plan
+    text      :  3827 characters
+    time      :  2014-06-14 18:43:57.874000
+
+    id        :  1512
+    user      :  seaman
+    path      :  /home/seaman/Projects/mybook/webapps/mybook/user_doc/seaman/BizPlan/SWS/PlanningMap
+    title     :  Planning Map
+    text      :  3211 characters
+    time      :  2014-06-14 18:43:57.942000
+
+    id        :  1541
+    user      :  seaman
+    path      :  /home/seaman/Projects/mybook/webapps/mybook/user_doc/seaman/BizPlan/SWS/Marketing
+    title     :  SWS Marketing Plan
+    text      :  869 characters
+    time      :  2014-06-14 18:43:58.168000
 
 
 brain import /home/seaman/Documents/MyBook/Public/ShrinkingWorld/Pricing
@@ -130,71 +178,15 @@ import_doc :  Lessons from Python Conference
 
 brain show /home/seaman/Documents/MyBook/Public/ShrinkingWorld/Pricing
 User: seaman
-    id        :  1
+    id        :  1689
     user      :  seaman
     path      :  /home/seaman/Documents/MyBook/Public/ShrinkingWorld/Pricing
     title     :  Pricing
     text      :  1558 characters
+    time      :  2014-06-14 18:52:37.034160
 
 
-* Pricing *                                       -*-muse-*-
-
-We believe in no-nonsense pricing
-
-_____________________________________________________________________________
-
-**Pricing for services**
-
-    management          
-
-        definition      $100/hour
-        communication   $100/hour
-
-    development
-
-        application     $2,500/data type (or $100/hour)
-        JS front end    $100/hour
-        web content     $100/hour
-        web design      $100/hour
-
-    deployment
-
-        server setup     $1000/year
-        basic hosting    free
-        complex hosting  client is responsible for charges above $1000/year (unusual for heavy apps)
-        support          $100/hour
-
-    no-nonsense policy
-
-        we deliver results weekly
-        you tell us what you want done
-        we do what you decide
-
-
-**Choosing your price model**
-
-Choosing the correct pricing model for your project. How you want to pay for your project
-depends on a number of different factors.
-
-
-Effort-based pricing
-
- * Pay for each hour of engineering services delivered.
- * Works best if many details of the project are unknown.
- * Good fit for exploratory work.
- * Project can be guided throughout the development.
- * Maximizes flexibility.
-
-Value-based price model:
-
- * Pay for the value delivered.
- * Works best if the project is well understood.
- * Good for routine work like replacing existing functionality.
- * Requires clear understanding of project scope.
- * More expensive for exploratory projects.
- * Requires concrete and robust project specifications.
-
-
+2014-06-14 18:52:37.034160
 
 -------------------------------------------
 Errors
