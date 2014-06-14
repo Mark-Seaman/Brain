@@ -24,4 +24,19 @@ class Doc(models.Model):
 
     #-----------------------------------------------------------------------------
 
+    'Time': {
+        'module': 'time',
+        'class': 
+'''
+class Time(models.Model):
+
+    user    = models.ForeignKey(User)
+    name    = models.CharField (max_length=200)
+    task    = models.CharField (max_length=40)
+    date    = models.DateField(auto_now_add=True)  
+    minutes = models.IntegerField(default='60')
+'''
+
+    },
+
 }
