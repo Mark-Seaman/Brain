@@ -52,6 +52,7 @@ filter-path
 impact-data
 impact-urls
 impact-views
+import-docs
 install.pip
 json-load
 json-load-doc
@@ -113,6 +114,7 @@ welcome
 classes
 Domains
 Public
+rejects
 SRS
 test
 vars-data

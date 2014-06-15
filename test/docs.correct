@@ -4,6 +4,7 @@
 ./Public
 ./Public/test
 ./Public/TestIndex
+./rejects
 ./SRS
 ./SRS/BuildingSRS
 ./SRS/Index

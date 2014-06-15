@@ -63,6 +63,7 @@ bin/filter-path
 bin/impact-data
 bin/impact-urls
 bin/impact-views
+bin/import-docs
 bin/install.pip
 bin/json-load
 bin/json-load-doc
