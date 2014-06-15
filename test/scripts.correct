@@ -3,4 +3,36 @@ Checking for users:
    Super user - OK
    Test Robot - OK
    seaman - OK
+Run the script test_doc
+4 Doc Records
+Run the script test_time
+Time list:  4 records
+    id        :  1
+    user      :  TestRobot
+    name      :  Mark Putin
+    task      :  3944 Mullberry Ave
+    date      :  2014-06-14
+    minutes   :  60
+
+    id        :  2
+    user      :  TestRobot
+    name      :  Sarah Johnson
+    task      :  6272 Pine Ave
+    date      :  2014-06-14
+    minutes   :  60
+
+    id        :  3
+    user      :  TestRobot
+    name      :  Eric Obama
+    task      :  2371 Maple Ave
+    date      :  2014-06-14
+    minutes   :  60
+
+    id        :  4
+    user      :  TestRobot
+    name      :  Mike Williams
+    task      :  7065 Maple Ave
+    date      :  2014-06-14
+    minutes   :  60
+
 Scripts run successfully

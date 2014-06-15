@@ -3,7 +3,10 @@
 
 cd $pa && 
 
-./manage.py runscript devtest    &&
-./manage.py runscript initialize &&
+rs devtest     &&
+rs  initialize &&
+
+rs test_doc
+rs test_time
 
 echo 'Scripts run successfully'

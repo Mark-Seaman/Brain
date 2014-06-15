@@ -1,10 +1,10 @@
 # task/time.py
 # Model for Time records
 
-#from django.contrib.auth.models import User
+from django.contrib.auth.models import User
 
 from time_model import Time
-#from faker import fake_name,fake_address,fake_phone_number,fake_company
+from doc.faker import fake_name,fake_address,fake_phone_number,fake_company
 
 
 # Get a table listing from the database
@@ -41,10 +41,9 @@ def print_time_list():
 # Generate a new record if needed
 def add_fake_time():
     c = Time()
-    # c.user = User.objects.get(username='TestRobot')
-    # c.name = fake_name()
-    # c.address = fake_address()
-    # c.phone = fake_phone_number()
+    c.user = User.objects.get(username='TestRobot')
+    c.name = fake_name()
+    c.task = fake_address()
     c.save()
     return c
 

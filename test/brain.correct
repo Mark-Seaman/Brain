@@ -1,137 +1,39 @@
 brian list
 list()
-Doc list:  2986 records
+Doc list:  4 records
     id        :  1
-    user      :  seaman
-    path      :  /home/seaman/Projects/mybook/webapps/mybook_media/slides-old/Index
-    title     :  Hammer Tricks
-    text      :  160 characters
-    time      :  2014-06-14 18:43:42.184000
+    user      :  TestRobot
+    path      :  Rachel Obama
+    title     :  Rachel Obama
+    text      :  264 characters
+    time      :  2014-06-14 22:37:28.617924
 
     id        :  2
-    user      :  seaman
-    path      :  /home/seaman/Projects/mybook/webapps/mybook_media/forms/Home
-    title     :  Aweber Sign Up Scripts
-    text      :  213 characters
-    time      :  2014-06-14 18:43:42.207000
+    user      :  TestRobot
+    path      :  Josiah Smith
+    title     :  Josiah Smith
+    text      :  264 characters
+    time      :  2014-06-14 22:37:28.624611
 
     id        :  3
-    user      :  seaman
-    path      :  /home/seaman/Projects/mybook/webapps/mybook_media/slides/text/Meeting-2014-04-30
-    title     :  Meeting 2-14-4-30
-    text      :  1796 characters
-    time      :  2014-06-14 18:43:42.566000
+    user      :  TestRobot
+    path      :  Jessica Prill
+    title     :  Jessica Prill
+    text      :  265 characters
+    time      :  2014-06-14 22:37:28.631252
 
     id        :  4
-    user      :  seaman
-    path      :  /home/seaman/Projects/mybook/webapps/mybook/test/test-content
-    title     :  Table of Contents
-    text      :  314 characters
-    time      :  2014-06-14 18:43:42.648000
-
-    id        :  5
-    user      :  seaman
-    path      :  /home/seaman/Projects/mybook/webapps/mybook/test/sample-content
-    title     :  Table of Contents
-    text      :  314 characters
-    time      :  2014-06-14 18:43:42.661000
-
-    id        :  6
-    user      :  seaman
-    path      :  /home/seaman/Projects/mybook/webapps/mybook/test/correct-paragraphs
-    title     :  Super-Power Handbook
-    text      :  5801 characters
-    time      :  2014-06-14 18:43:42.697000
+    user      :  TestRobot
+    path      :  Christine Smith
+    title     :  Christine Smith
+    text      :  266 characters
+    time      :  2014-06-14 22:37:28.637866
 
 brian list(path=Git)
 list(path=Git)
-Doc list:  21 records
-    id        :  731
-    user      :  seaman
-    path      :  /home/seaman/Projects/mybook/webapps/mybook/user_doc/seaman/Brain/UsingGit
-    title     :  Using Git
-    text      :  384 characters
-    time      :  2014-06-14 18:43:51.091000
-
-    id        :  752
-    user      :  seaman
-    path      :  /home/seaman/Projects/mybook/webapps/mybook/user_doc/seaman/Brain/GitSharedBranch
-    title     :  Shared Git Branch
-    text      :  561 characters
-    time      :  2014-06-14 18:43:51.263000
-
-    id        :  841
-    user      :  seaman
-    path      :  /home/seaman/Projects/mybook/webapps/mybook/user_doc/seaman/Brain/GitDocuments
-    title     :  Git Documents
-    text      :  760 characters
-    time      :  2014-06-14 18:43:52.011000
-
-    id        :  872
-    user      :  seaman
-    path      :  /home/seaman/Projects/mybook/webapps/mybook/user_doc/seaman/Brain/WmGitRepos
-    title     :  Wm Git Repos
-    text      :  861 characters
-    time      :  2014-06-14 18:43:52.260000
-
-    id        :  938
-    user      :  seaman
-    path      :  /home/seaman/Projects/mybook/webapps/mybook/user_doc/seaman/Brain/GitHub
-    title     :  Git Hub
-    text      :  417 characters
-    time      :  2014-06-14 18:43:52.856000
-
-    id        :  1002
-    user      :  seaman
-    path      :  /home/seaman/Projects/mybook/webapps/mybook/user_doc/seaman/Brain/PlatformGit
-    title     :  Update Platform GIT
-    text      :  2983 characters
-    time      :  2014-06-14 18:43:53.375000
-
+Doc list:  0 records
 list(title=Plan,content=Market)
-Doc list:  9 records
-    id        :  716
-    user      :  seaman
-    path      :  /home/seaman/Projects/mybook/webapps/mybook/user_doc/seaman/Brain/Plan
-    title     :  Plan
-    text      :  407 characters
-    time      :  2014-06-14 18:43:50.979000
-
-    id        :  1046
-    user      :  seaman
-    path      :  /home/seaman/Projects/mybook/webapps/mybook/user_doc/seaman/Brain/AppThumper/planner/SWS/Marketing
-    title     :  SWS Marketing Plan
-    text      :  869 characters
-    time      :  2014-06-14 18:43:53.777000
-
-    id        :  1188
-    user      :  seaman
-    path      :  /home/seaman/Projects/mybook/webapps/mybook/user_doc/seaman/Brain/MarketingPlan
-    title     :  Marketing Plan
-    text      :  1996 characters
-    time      :  2014-06-14 18:43:55.133000
-
-    id        :  1503
-    user      :  seaman
-    path      :  /home/seaman/Projects/mybook/webapps/mybook/user_doc/seaman/BizPlan/SWS/TrainingBizPlan
-    title     :  Training Biz Plan
-    text      :  3827 characters
-    time      :  2014-06-14 18:43:57.874000
-
-    id        :  1512
-    user      :  seaman
-    path      :  /home/seaman/Projects/mybook/webapps/mybook/user_doc/seaman/BizPlan/SWS/PlanningMap
-    title     :  Planning Map
-    text      :  3211 characters
-    time      :  2014-06-14 18:43:57.942000
-
-    id        :  1541
-    user      :  seaman
-    path      :  /home/seaman/Projects/mybook/webapps/mybook/user_doc/seaman/BizPlan/SWS/Marketing
-    title     :  SWS Marketing Plan
-    text      :  869 characters
-    time      :  2014-06-14 18:43:58.168000
-
+Doc list:  0 records
 
 brain import /home/seaman/Documents/MyBook/Public/ShrinkingWorld/Pricing
 import_doc :  Pricing
@@ -178,15 +80,15 @@ import_doc :  Lessons from Python Conference
 
 brain show /home/seaman/Documents/MyBook/Public/ShrinkingWorld/Pricing
 User: seaman
-    id        :  1689
+    id        :  5
     user      :  seaman
     path      :  /home/seaman/Documents/MyBook/Public/ShrinkingWorld/Pricing
     title     :  Pricing
     text      :  1558 characters
-    time      :  2014-06-14 19:13:57.142985
+    time      :  2014-06-14 22:37:39.950503
 
 
-2014-06-14 19:13:57.142985
+2014-06-14 22:37:39.950503
 
 -------------------------------------------
 Errors
