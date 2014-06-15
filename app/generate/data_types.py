@@ -22,7 +22,7 @@ class Doc(models.Model):
     #-----------------------------------------------------------------------------
 
     'Time': {
-        'module': 'time',
+        'module': 'task',
         'class': 
 '''
 class Time(models.Model):
