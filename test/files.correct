@@ -150,6 +150,8 @@ projects.correct
 projects.tst
 python.correct
 python.tst
+records.correct
+records.tst
 scripts.correct
 scripts.tst
 src.correct

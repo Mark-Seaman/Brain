@@ -30,6 +30,7 @@ app/scripts/clear_doc.py
 app/scripts/devtest.py
 app/scripts/initialize.py
 app/scripts/__init__.py
+app/scripts/records.py
 app/scripts/test_doc.py
 app/scripts/test_time.py
 app/task/admin.py
@@ -155,6 +156,7 @@ test/git.tst
 test/mkcode.tst
 test/projects.tst
 test/python.tst
+test/records.tst
 test/scripts.tst
 test/src.tst
 test/tablerw.tst

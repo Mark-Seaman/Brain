@@ -3,45 +3,45 @@ list()
 Doc list:  1303 records
     id        :  1
     user      :  TestRobot
-    path      :  Sarah Putin
-    title     :  Sarah Putin
-    text      :  259 characters
-    time      :  2014-06-15 20:35:34.234758
+    path      :  Christine Johnson
+    title     :  Christine Johnson
+    text      :  266 characters
+    time      :  2014-06-16 09:59:11.608092
 
     id        :  2
     user      :  TestRobot
-    path      :  Rachel Williams
-    title     :  Rachel Williams
-    text      :  276 characters
-    time      :  2014-06-15 20:35:34.351292
+    path      :  Rachel Seaman
+    title     :  Rachel Seaman
+    text      :  279 characters
+    time      :  2014-06-16 09:59:11.608092
 
     id        :  3
     user      :  TestRobot
-    path      :  Jennifer Seaman
-    title     :  Jennifer Seaman
-    text      :  274 characters
-    time      :  2014-06-15 20:35:34.468436
+    path      :  Eric Watkins
+    title     :  Eric Watkins
+    text      :  283 characters
+    time      :  2014-06-16 09:59:11.608092
 
     id        :  4
     user      :  TestRobot
-    path      :  Brad Johnson
-    title     :  Brad Johnson
-    text      :  268 characters
-    time      :  2014-06-15 20:35:34.618938
+    path      :  Sarah Johnson
+    title     :  Sarah Johnson
+    text      :  277 characters
+    time      :  2014-06-16 09:59:11.608092
 
     id        :  5
     user      :  seaman
     path      :  /home/seaman/Documents/MyBook/Public/Automate/Principles
     title     :  Seven Principles of Automation
     text      :  2691 characters
-    time      :  2014-06-15 20:35:55.169505
+    time      :  2011-07-28 10:41:49
 
     id        :  6
     user      :  seaman
     path      :  /home/seaman/Documents/MyBook/Public/Automate/Transparency
     title     :  Automation Becomes Transparent
     text      :  2017 characters
-    time      :  2014-06-15 20:35:55.401273
+    time      :  2011-07-28 10:41:49
 
 brian list(path=Git)
 list(path=Git)
@@ -51,42 +51,42 @@ Doc list:  10 records
     path      :  /home/seaman/Documents/Brain/UsingGit
     title     :  Using Git
     text      :  384 characters
-    time      :  2014-06-15 20:37:44.945175
+    time      :  2012-12-16 18:58:07
 
     id        :  640
     user      :  seaman
     path      :  /home/seaman/Documents/Brain/PlatformGit
     title     :  Update Platform GIT
     text      :  2983 characters
-    time      :  2014-06-15 20:38:08.341317
+    time      :  2012-12-16 18:58:07
 
     id        :  656
     user      :  seaman
     path      :  /home/seaman/Documents/Brain/GitSharedBranch
     title     :  Shared Git Branch
     text      :  561 characters
-    time      :  2014-06-15 20:38:11.428259
+    time      :  2012-12-16 18:58:07
 
     id        :  683
     user      :  seaman
     path      :  /home/seaman/Documents/Brain/GitHub
     title     :  Git Hub
     text      :  417 characters
-    time      :  2014-06-15 20:38:16.832580
+    time      :  2012-12-16 18:58:07
 
     id        :  701
     user      :  seaman
     path      :  /home/seaman/Documents/Brain/GitOscon
     title     :  Git - Oscon Training Session
     text      :  1458 characters
-    time      :  2014-06-15 20:38:20.065383
+    time      :  2012-12-16 18:58:07
 
     id        :  732
     user      :  seaman
     path      :  /home/seaman/Documents/Brain/GitRepo
     title     :  Git Repo Setup
     text      :  743 characters
-    time      :  2014-06-15 20:38:25.825303
+    time      :  2012-12-16 18:58:07
 
 list(title=Plan,content=Market)
 Doc list:  3 records
@@ -95,65 +95,101 @@ Doc list:  3 records
     path      :  /home/seaman/Documents/Brain/AppThumper/planner/SWS/Marketing
     title     :  SWS Marketing Plan
     text      :  869 characters
-    time      :  2014-06-15 20:39:16.462592
+    time      :  2014-01-24 07:30:03
 
     id        :  1075
     user      :  seaman
     path      :  /home/seaman/Documents/Brain/MarketingPlan
     title     :  Marketing Plan
     text      :  1996 characters
-    time      :  2014-06-15 20:39:40.151352
+    time      :  2012-12-16 18:58:07
 
     id        :  1164
     user      :  seaman
     path      :  /home/seaman/Documents/Brain/Plan
     title     :  Plan
     text      :  407 characters
-    time      :  2014-06-15 20:40:00.712697
+    time      :  2013-02-21 09:17:02
 
 
 brain import /home/seaman/Documents/MyBook/Public/ShrinkingWorld/Pricing
 import_doc :  Pricing
+Date: 2014-04-07 09:07:20
 
 brain import /home/seaman/Documents/MyBook/Public/ShrinkingWorld
 Directory: /home/seaman/Documents/MyBook/Public/ShrinkingWorld
 import_doc :  Pricing
+Date: 2014-04-07 09:07:20
 import_doc :  Ft. Collins Internet Pros
+Date: 2013-11-21 17:02:49
 import_doc :  Software Engineering
+Date: 2014-04-07 09:07:20
 import_doc :  Lessons from Python Conference
+Date: 2014-05-11 12:56:33
 import_doc :  Software Training
+Date: 2013-11-21 14:19:05
 import_doc :  Python Web Developers
+Date: 2014-05-12 17:59:47
 Directory: /home/seaman/Documents/MyBook/Public/ShrinkingWorld/MySlides
 Directory: /home/seaman/Documents/MyBook/Public/ShrinkingWorld/MySlides/MySlides
 import_doc :  Writer User Stories
+Date: 2013-11-27 07:30:04
 import_doc :  Publisher User Stories
+Date: 2013-11-27 07:30:04
 import_doc :  Delete a topic
+Date: 2013-11-27 07:30:04
 import_doc :  My Book for the Reader
+Date: 2013-11-27 07:30:04
 import_doc :  My Book for the Author
+Date: 2013-11-27 07:30:04
 import_doc :  Get Involved
+Date: 2013-11-27 07:30:04
 import_doc :  My Book Hosting
+Date: 2013-11-27 07:30:04
 import_doc :  Table of Contents
+Date: 2013-11-27 07:30:04
 import_doc :  Developer notes
+Date: 2013-11-27 07:30:04
 import_doc :  Project Goals
+Date: 2013-11-27 07:30:04
 import_doc :  Change the Reading Order
+Date: 2013-11-27 07:30:04
 import_doc :  Write a new article
+Date: 2013-11-27 07:30:04
 import_doc :  My Book for the Developer
+Date: 2013-11-27 07:30:04
 import_doc :  Feature wish list
+Date: 2013-11-27 07:30:04
 import_doc :  Online reading
+Date: 2013-11-27 07:30:04
 import_doc :  Searching MyBook
+Date: 2013-11-27 07:30:04
 import_doc :  About My Book Online
+Date: 2013-11-27 07:30:04
 import_doc :  My Slides Online
+Date: 2013-11-27 07:30:04
 import_doc :  My Book for the Publisher
+Date: 2013-11-27 07:30:04
 import_doc :  Modify an Existing Topic
+Date: 2013-11-27 07:30:04
 import_doc :  Download My Book
+Date: 2013-11-27 07:30:04
 import_doc :  Building user stories
+Date: 2013-11-27 07:30:04
 import_doc :  Self hosting
+Date: 2013-11-27 07:30:04
 import_doc :  Technology
+Date: 2013-11-27 07:30:04
 import_doc :  My Book
+Date: 2013-11-27 07:30:04
 import_doc :  Reader User Stories
+Date: 2013-11-27 07:30:04
 import_doc :  My Slides Online
+Date: 2013-11-27 07:30:04
 import_doc :  Slide Slinger
+Date: 2013-11-21 13:03:17
 import_doc :  Open Source Projects
+Date: 2013-11-27 09:07:37
 
 brain show /home/seaman/Documents/MyBook/Public/ShrinkingWorld/Pricing
 User: seaman
@@ -162,10 +198,10 @@ User: seaman
     path      :  /home/seaman/Documents/MyBook/Public/ShrinkingWorld/Pricing
     title     :  Pricing
     text      :  1558 characters
-    time      :  2014-06-15 20:41:20.316621
+    time      :  2014-04-07 09:07:20
 
 
-2014-06-15 20:41:20.316621
+2014-04-07 09:07:20
 
 -------------------------------------------
 Errors
