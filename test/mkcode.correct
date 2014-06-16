@@ -1,27 +1,27 @@
 Create the source code for a Django data type,  doc/Doc
-     doc/doc_views.py
-     doc/doc_urls.py
-     doc/doc_model.py
-     doc/test_doc.py
      doc/doc_tests.py
-     doc/templates/doc_detail.html
+     doc/doc_views.py
+     doc/doc_model.py
+     doc/doc_urls.py
+     doc/test_doc.py
+     doc/templates/doc_edit.html
      doc/templates/doc_delete.html
+     doc/templates/doc_test.html
+     doc/templates/doc_detail.html
      doc/templates/doc.html
      doc/templates/doc_list.html
-     doc/templates/doc_test.html
-     doc/templates/doc_edit.html
 Create the source code for a Django data type,  task/Time
-     task/time_views.py
-     task/time_urls.py
-     task/time_model.py
-     task/test_time.py
      task/time_tests.py
-     task/templates/time_detail.html
+     task/time_views.py
+     task/time_model.py
+     task/time_urls.py
+     task/test_time.py
+     task/templates/time_edit.html
      task/templates/time_delete.html
+     task/templates/time_test.html
+     task/templates/time_detail.html
      task/templates/time.html
      task/templates/time_list.html
-     task/templates/time_test.html
-     task/templates/time_edit.html
 Creating tables ...
 Installing custom SQL ...
 Installing indexes ...

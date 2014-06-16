@@ -124,10 +124,9 @@ bin
 include
 lib
 local
+man
 
 /home/seaman/Projects/brain/logs:
-python.tst.log
-tablerw.tst.log
 user
 
 /home/seaman/Projects/brain/test:

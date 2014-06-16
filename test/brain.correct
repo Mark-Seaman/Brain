@@ -1,94 +1,171 @@
 brian list
 list()
-Doc list:  4 records
+Doc list:  1303 records
     id        :  1
     user      :  TestRobot
-    path      :  Rachel Obama
-    title     :  Rachel Obama
-    text      :  264 characters
-    time      :  2014-06-14 22:37:28.617924
+    path      :  Sarah Putin
+    title     :  Sarah Putin
+    text      :  259 characters
+    time      :  2014-06-15 20:35:34.234758
 
     id        :  2
     user      :  TestRobot
-    path      :  Josiah Smith
-    title     :  Josiah Smith
-    text      :  264 characters
-    time      :  2014-06-14 22:37:28.624611
+    path      :  Rachel Williams
+    title     :  Rachel Williams
+    text      :  276 characters
+    time      :  2014-06-15 20:35:34.351292
 
     id        :  3
     user      :  TestRobot
-    path      :  Jessica Prill
-    title     :  Jessica Prill
-    text      :  265 characters
-    time      :  2014-06-14 22:37:28.631252
+    path      :  Jennifer Seaman
+    title     :  Jennifer Seaman
+    text      :  274 characters
+    time      :  2014-06-15 20:35:34.468436
 
     id        :  4
     user      :  TestRobot
-    path      :  Christine Smith
-    title     :  Christine Smith
-    text      :  266 characters
-    time      :  2014-06-14 22:37:28.637866
+    path      :  Brad Johnson
+    title     :  Brad Johnson
+    text      :  268 characters
+    time      :  2014-06-15 20:35:34.618938
+
+    id        :  5
+    user      :  seaman
+    path      :  /home/seaman/Documents/MyBook/Public/Automate/Principles
+    title     :  Seven Principles of Automation
+    text      :  2691 characters
+    time      :  2014-06-15 20:35:55.169505
+
+    id        :  6
+    user      :  seaman
+    path      :  /home/seaman/Documents/MyBook/Public/Automate/Transparency
+    title     :  Automation Becomes Transparent
+    text      :  2017 characters
+    time      :  2014-06-15 20:35:55.401273
 
 brian list(path=Git)
 list(path=Git)
-Doc list:  0 records
+Doc list:  10 records
+    id        :  521
+    user      :  seaman
+    path      :  /home/seaman/Documents/Brain/UsingGit
+    title     :  Using Git
+    text      :  384 characters
+    time      :  2014-06-15 20:37:44.945175
+
+    id        :  640
+    user      :  seaman
+    path      :  /home/seaman/Documents/Brain/PlatformGit
+    title     :  Update Platform GIT
+    text      :  2983 characters
+    time      :  2014-06-15 20:38:08.341317
+
+    id        :  656
+    user      :  seaman
+    path      :  /home/seaman/Documents/Brain/GitSharedBranch
+    title     :  Shared Git Branch
+    text      :  561 characters
+    time      :  2014-06-15 20:38:11.428259
+
+    id        :  683
+    user      :  seaman
+    path      :  /home/seaman/Documents/Brain/GitHub
+    title     :  Git Hub
+    text      :  417 characters
+    time      :  2014-06-15 20:38:16.832580
+
+    id        :  701
+    user      :  seaman
+    path      :  /home/seaman/Documents/Brain/GitOscon
+    title     :  Git - Oscon Training Session
+    text      :  1458 characters
+    time      :  2014-06-15 20:38:20.065383
+
+    id        :  732
+    user      :  seaman
+    path      :  /home/seaman/Documents/Brain/GitRepo
+    title     :  Git Repo Setup
+    text      :  743 characters
+    time      :  2014-06-15 20:38:25.825303
+
 list(title=Plan,content=Market)
-Doc list:  0 records
+Doc list:  3 records
+    id        :  963
+    user      :  seaman
+    path      :  /home/seaman/Documents/Brain/AppThumper/planner/SWS/Marketing
+    title     :  SWS Marketing Plan
+    text      :  869 characters
+    time      :  2014-06-15 20:39:16.462592
+
+    id        :  1075
+    user      :  seaman
+    path      :  /home/seaman/Documents/Brain/MarketingPlan
+    title     :  Marketing Plan
+    text      :  1996 characters
+    time      :  2014-06-15 20:39:40.151352
+
+    id        :  1164
+    user      :  seaman
+    path      :  /home/seaman/Documents/Brain/Plan
+    title     :  Plan
+    text      :  407 characters
+    time      :  2014-06-15 20:40:00.712697
+
 
 brain import /home/seaman/Documents/MyBook/Public/ShrinkingWorld/Pricing
 import_doc :  Pricing
 
 brain import /home/seaman/Documents/MyBook/Public/ShrinkingWorld
 Directory: /home/seaman/Documents/MyBook/Public/ShrinkingWorld
-import_doc :  Software Engineering
-import_doc :  Python Web Developers
+import_doc :  Pricing
 import_doc :  Ft. Collins Internet Pros
+import_doc :  Software Engineering
+import_doc :  Lessons from Python Conference
 import_doc :  Software Training
+import_doc :  Python Web Developers
 Directory: /home/seaman/Documents/MyBook/Public/ShrinkingWorld/MySlides
 Directory: /home/seaman/Documents/MyBook/Public/ShrinkingWorld/MySlides/MySlides
+import_doc :  Writer User Stories
 import_doc :  Publisher User Stories
+import_doc :  Delete a topic
+import_doc :  My Book for the Reader
+import_doc :  My Book for the Author
+import_doc :  Get Involved
+import_doc :  My Book Hosting
 import_doc :  Table of Contents
-import_doc :  My Book
+import_doc :  Developer notes
+import_doc :  Project Goals
+import_doc :  Change the Reading Order
+import_doc :  Write a new article
+import_doc :  My Book for the Developer
+import_doc :  Feature wish list
+import_doc :  Online reading
+import_doc :  Searching MyBook
 import_doc :  About My Book Online
 import_doc :  My Slides Online
-import_doc :  Reader User Stories
-import_doc :  Modify an Existing Topic
-import_doc :  My Book for the Developer
-import_doc :  Writer User Stories
-import_doc :  Get Involved
 import_doc :  My Book for the Publisher
-import_doc :  Searching MyBook
-import_doc :  Online reading
-import_doc :  Write a new article
-import_doc :  My Book for the Author
-import_doc :  Feature wish list
-import_doc :  My Slides Online
-import_doc :  Delete a topic
-import_doc :  Project Goals
-import_doc :  Technology
-import_doc :  Developer notes
-import_doc :  My Book for the Reader
-import_doc :  Change the Reading Order
-import_doc :  Self hosting
-import_doc :  My Book Hosting
-import_doc :  Building user stories
+import_doc :  Modify an Existing Topic
 import_doc :  Download My Book
+import_doc :  Building user stories
+import_doc :  Self hosting
+import_doc :  Technology
+import_doc :  My Book
+import_doc :  Reader User Stories
+import_doc :  My Slides Online
 import_doc :  Slide Slinger
 import_doc :  Open Source Projects
-import_doc :  Pricing
-import_doc :  Lessons from Python Conference
 
 brain show /home/seaman/Documents/MyBook/Public/ShrinkingWorld/Pricing
 User: seaman
-    id        :  5
+    id        :  293
     user      :  seaman
     path      :  /home/seaman/Documents/MyBook/Public/ShrinkingWorld/Pricing
     title     :  Pricing
     text      :  1558 characters
-    time      :  2014-06-14 22:37:39.950503
+    time      :  2014-06-15 20:41:20.316621
 
 
-2014-06-14 22:37:39.950503
+2014-06-15 20:41:20.316621
 
 -------------------------------------------
 Errors

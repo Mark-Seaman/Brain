@@ -9,30 +9,30 @@ Run the script test_time
 Time list:  4 records
     id        :  1
     user      :  TestRobot
-    name      :  Mark Putin
-    task      :  3944 Mullberry Ave
-    date      :  2014-06-14
+    name      :  Jessica Johnson
+    task      :  9852 Mullberry Ave
+    date      :  2014-06-15
     minutes   :  60
 
     id        :  2
     user      :  TestRobot
-    name      :  Sarah Johnson
-    task      :  6272 Pine Ave
-    date      :  2014-06-14
+    name      :  Mike Williams
+    task      :  5666 Pine Ave
+    date      :  2014-06-15
     minutes   :  60
 
     id        :  3
     user      :  TestRobot
-    name      :  Eric Obama
-    task      :  2371 Maple Ave
-    date      :  2014-06-14
+    name      :  Jessica Obama
+    task      :  4099 Olive Ave
+    date      :  2014-06-15
     minutes   :  60
 
     id        :  4
     user      :  TestRobot
-    name      :  Mike Williams
-    task      :  7065 Maple Ave
-    date      :  2014-06-14
+    name      :  Rachel Johnson
+    task      :  4649 Cherry Ave
+    date      :  2014-06-15
     minutes   :  60
 
 Scripts run successfully
