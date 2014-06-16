@@ -8,13 +8,15 @@ data_types = {
         'module': 'doc',
         'class': 
 '''
+from datetime import datetime
+
 class Doc(models.Model):
 
     user    = models.ForeignKey(User)
     path    = models.CharField (max_length=200)
     title   = models.CharField (max_length=200)
     text    = models.TextField ()
-    time    = models.DateTimeField(auto_now=True)  
+    time    = models.DateTimeField(default= datetime.now())  
 '''
 
     },

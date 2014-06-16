@@ -4,6 +4,8 @@
 from django.contrib.auth.models import User
 from os.path import exists,isdir,getmtime
 from os import listdir
+from time import ctime
+from datetime import datetime
 
 from doc_model import Doc
 from faker import fake_name,fake_address,fake_phone_number,fake_company
@@ -186,10 +188,11 @@ def import_doc(path):
                 user    = get_user('seaman')
                 content = get_content(path)
                 title   = get_title(content)
-                #path    = get_path(path)
+                time = datetime.fromtimestamp(getmtime(path))
                 if title:
-                    d = add_doc(user,path,title,content) #,getmtime(path))
+                    d = add_doc(user,path,title,content,time)
                     print 'import_doc : ', get_title(content)
+                    print 'Date:',time
                 else:
                     print 'BAD import_doc : ', path
     else:
