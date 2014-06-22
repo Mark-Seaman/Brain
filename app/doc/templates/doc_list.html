@@ -3,9 +3,9 @@
 
 {% block content %}
     <h2>My Docs</h2>
-    <a href='/'>Home</a>
-    <a href='/doc/add'>Add Doc</a>
-    <a href='/doc/test'>Doc Test</a>
+    * 
+    <a href='/doc/add'>Add Doc</a> *
+    <a href='/doc/test'>Doc Test</a> *
 
     {% if debug %}
     <pre>
@@ -20,10 +20,10 @@
               {% for column in row %}
                   <td>{{ column }}</td>
               {% endfor %}
+              <td>
+                <a href="/doc/{{ row.0 }}">Details</a>
+              </td>
             </tr>
-            <td>
-              <a href="/doc/{{ row.0 }}">Details</a>
-            </td>
         {% endfor %}
     </table>
 

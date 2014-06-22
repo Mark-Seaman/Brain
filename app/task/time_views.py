@@ -49,7 +49,6 @@ class TimeAdd(CreateView):
 
 
 # Update view
-#@login_required(login_url='/login')
 class TimeEdit(UpdateView):
     model = Time
     template_name = 'time_edit.html'

@@ -3,9 +3,9 @@
 
 {% block content %}
     <h2>My Times</h2>
-    <a href='/'>Home</a>
-    <a href='/time/add'>Add Time</a>
-    <a href='/time/test'>Time Test</a>
+    * 
+    <a href='/time/add'>Add Time</a> *
+    <a href='/time/test'>Time Test</a> *
 
     {% if debug %}
     <pre>
@@ -20,10 +20,10 @@
               {% for column in row %}
                   <td>{{ column }}</td>
               {% endfor %}
+              <td>
+                <a href="/time/{{ row.0 }}">Details</a>
+              </td>
             </tr>
-            <td>
-              <a href="/time/{{ row.0 }}">Details</a>
-            </td>
         {% endfor %}
     </table>
 

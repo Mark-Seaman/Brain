@@ -49,7 +49,6 @@ class DocAdd(CreateView):
 
 
 # Update view
-#@login_required(login_url='/login')
 class DocEdit(UpdateView):
     model = Doc
     template_name = 'doc_edit.html'

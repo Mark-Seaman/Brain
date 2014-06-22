@@ -60,7 +60,9 @@ json-save
 json-save-doc
 json-show
 lc
+mkaddtype
 mkcode
+mkcode-update
 mkdatatype
 mkdoc
 mkdocapp
@@ -124,9 +126,10 @@ bin
 include
 lib
 local
-man
 
 /home/seaman/Projects/brain/logs:
+python.tst.log
+tablerw.tst.log
 user
 
 /home/seaman/Projects/brain/test:

@@ -1,4 +1,4 @@
-# task/time.py
+# task/time_model.py
 # Model for Time records
 
 

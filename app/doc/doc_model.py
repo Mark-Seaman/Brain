@@ -1,4 +1,4 @@
-# doc/doc.py
+# doc/doc_model.py
 # Model for Doc records
 
 
