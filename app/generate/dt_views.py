@@ -49,7 +49,6 @@ class Data_TypeAdd(CreateView):
 
 
 # Update view
-#@login_required(login_url='/login')
 class Data_TypeEdit(UpdateView):
     model = Data_Type
     template_name = 'data_type_edit.html'

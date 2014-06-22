@@ -1,4 +1,4 @@
-# module_name/data_type.py
+# module_name/data_type_model.py
 # Model for Data_Type records
 
 

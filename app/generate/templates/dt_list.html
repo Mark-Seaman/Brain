@@ -3,9 +3,9 @@
 
 {% block content %}
     <h2>My Data_Types</h2>
-    <a href='/'>Home</a>
-    <a href='/data_type/add'>Add Data_Type</a>
-    <a href='/data_type/test'>Data_Type Test</a>
+    * 
+    <a href='/data_type/add'>Add Data_Type</a> *
+    <a href='/data_type/test'>Data_Type Test</a> *
 
     {% if debug %}
     <pre>
@@ -20,10 +20,10 @@
               {% for column in row %}
                   <td>{{ column }}</td>
               {% endfor %}
+              <td>
+                <a href="/data_type/{{ row.0 }}">Details</a>
+              </td>
             </tr>
-            <td>
-              <a href="/data_type/{{ row.0 }}">Details</a>
-            </td>
         {% endfor %}
     </table>
 
