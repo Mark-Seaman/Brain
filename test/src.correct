@@ -23,11 +23,13 @@ app/generate/dt_query.py
 app/generate/dt_tests.py
 app/generate/dt_urls.py
 app/generate/dt_views.py
+app/generate/scripts_dt.py
 app/generate/test_dt.py
 app/manage.py
 app/scripts/brain.py
 app/scripts/clear_doc.py
 app/scripts/devtest.py
+app/scripts/doc.py
 app/scripts/initialize.py
 app/scripts/__init__.py
 app/scripts/records.py
@@ -36,6 +38,7 @@ app/scripts/test_time.py
 app/task/admin.py
 app/task/__init__.py
 app/task/models.py
+app/task/scripts_time.py
 app/task/tests.py
 app/task/test_time.py
 app/task/time_model.py
@@ -76,7 +79,9 @@ bin/json-save
 bin/json-save-doc
 bin/json-show
 bin/lc
+bin/mkaddtype
 bin/mkcode
+bin/mkcode-update
 bin/mkdatatype
 bin/mkdoc
 bin/mkdocapp
