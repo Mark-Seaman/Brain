@@ -1,0 +1,5 @@
+#!/bin/bash
+# Check the apache configuration
+
+echo "Comparing $pb/event_thumper.conf /etc/apache2/sites-available/event_thumper.conf"
+diff $pb/event_thumper.conf /etc/apache2/sites-available/event_thumper.conf

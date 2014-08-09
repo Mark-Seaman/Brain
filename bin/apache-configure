@@ -1,0 +1,46 @@
+cd $pb
+
+cat <<EOF > brain.conf
+WSGIPythonHome /home/ubuntu/env_2.7
+WSGIPythonPath /home/ubuntu/Projects/brain/app:/home/ubuntu/env_2.7/lib/python2.7/site-packages
+
+<VirtualHost *:80>
+        ServerAdmin mark.b.seaman@gmail.com
+        ServerName mybrainonline.com
+        ServerAlias www.mybrainonline.com
+
+#        Alias /robots.txt /home/ubuntu/Projects/brain/static/robots.txt
+#        Alias /favicon.ico /home/ubuntu/Projects/brain/static/favicon.ico
+
+#        Alias /media/ /home/ubuntu/Projects/brain/app/media/
+        Alias /static/ /home/ubuntu/Projects/brain/app/static/
+
+#        <Directory /home/ubuntu/Projects/brain/app/media/>
+#            Order deny,allow
+#            Allow from all
+#        </Directory>
+
+#        <Directory /home/ubuntu/Projects/brain/app/static/>
+#            Order deny,allow
+#            Allow from all
+#        </Directory>
+
+        WSGIDaemonProcess brain user=brain group=brain processes=4 threads=2 python-path="/home/ubuntu/Projects/brain/app:/home/ubuntu/env_2.7/lib/python2.7/site-packages"
+        WSGIScriptAlias / /home/ubuntu/Projects/brain/app/app/wsgi.py
+        WSGIProcessGroup brain
+        WSGIApplicationGroup %{GLOBAL}
+
+        <Directory /home/ubuntu/Projects/brain/app>                                          
+            Require all granted
+        </Directory>
+
+        LogLevel info
+        ErrorLog /home/ubuntu/Projects/brain/logs/error-event.log
+        CustomLog /home/ubuntu/Projects/brain/logs/access-event.log combined
+</VirtualHost>
+EOF
+
+
+sudo cp brain.conf /etc/apache2/sites-available/brain.conf
+sudo a2ensite brain.conf
+sudo service apache2 restart
