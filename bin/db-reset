@@ -1,0 +1,28 @@
+#!/bin/bash
+# Reset the SQL database
+
+db=Brain
+
+cd $pa
+
+# Dev servers
+[ `hostname` == seaman-chute  ] && isDev=TRUE
+[ `hostname` == seaman-hammer ] && isDev=TRUE
+[ `hostname` == seaman-ultra  ] && isDev=TRUE
+[ "$isDev" == TRUE ] &&
+{
+    rm data/$db_development.db 
+    echo "Remove development database"
+}
+
+# Production server
+[ `hostname` == ip-10-252-24-21 ] && 
+{ 
+    ~/base-bin/db-destroy $db_production && 
+    ~/base-bin/db-create  $db_production 
+    echo "Created the production database"
+}
+
+
+# Recreate the database 
+db-sync

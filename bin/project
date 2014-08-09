@@ -9,7 +9,7 @@ export pa=$p/app
 export pb=$p/bin
 export pd=$p/doc
 export pt=$p/test
-export x=~/Projects/impact
+export x=~/Projects/thumper
 
 # Aliases
 alias proot="cd $p"
