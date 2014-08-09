@@ -1,7 +1,6 @@
 Remove automatically saved files from this directory tree
 Git orig files
 Git libpeerconnection files
-/home/seaman/Projects/brain/profile
 /home/seaman/Projects/brain/README.md
 
 /home/seaman/Projects/brain:
@@ -10,7 +9,6 @@ bin
 doc
 env
 logs
-profile
 README.md
 test
 
