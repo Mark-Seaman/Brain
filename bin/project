@@ -1,14 +1,21 @@
 #!/bin/bash
 # Start working on the simple project
 
+# Set these environmental variables for PostgresDB
+export PGHOST=shrinking-world.cqfqiornb6z5.us-west-2.rds.amazonaws.com
+export PGPORT=5432
+export PGDATABASE=brain_production
+export PGUSER=sws
+export PGPASSFILE=$HOME/base-bin/pgpass.conf
+
 # Vars
 export p=~/Projects/brain
-export ph=seaman@markseaman.org
-export port=8011
+export ph=$sws
 export pa=$p/app
 export pb=$p/bin
 export pd=$p/doc
 export pt=$p/test
+export port=8012
 export x=~/Projects/thumper
 
 # Aliases
@@ -23,7 +30,6 @@ alias edoc="e $pd"
 alias etest="e $pt"
 alias tres='tresults'
 alias s='search'
-alias syncdb='cd $pa && manage.py syncdb'
 
 # Path
 export PATH=\
@@ -39,10 +45,15 @@ export _OLD_VIRTUAL_PATH=$PATH
 
 # Directory
 cd $p
-cat $p/bin/welcome
+
+# Show the banner
+[ -f "$pb/welcome" ] && cat "$pb/welcome"
 
 # Use virtualenv
-[ -f $p/env/bin/activate ] && . $p/env/bin/activate
+[ 'seaman-chute'  == `hostname` ] &&  . $p/env/bin/activate
+[ 'seaman-hammer' == `hostname` ] &&  . $p/env/bin/activate
+[ 'seaman-ultra'  == `hostname` ] &&  . $p/env/bin/activate
+[ `hostname` == 'ip-10-252-24-21' ] && . $HOME/env_2.7/bin/activate
 echo "python = `which python`"
 echo 
 path

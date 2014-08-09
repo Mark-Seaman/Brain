@@ -1,0 +1,5 @@
+#!/bin/bash
+# Commit all changes on server
+
+svr-do 'cd $p && git status'
+

@@ -1,0 +1,5 @@
+#!/bin/bash
+# Commit all changes on server
+
+svr-do 'cd $p && git add -A . && git commit -m "Changes from Server" && git pull && git push && git status'
+git pull
