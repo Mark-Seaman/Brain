@@ -5,17 +5,15 @@ from os.path import dirname, join
 
 
 DEBUG=True
+TEMPLATE_DEBUG = True
 
 # Location of app directory
+ROOT_URLCONF = 'app.urls'
 BASE_DIR = dirname(dirname(__file__))
     
 
 # App startup
 SECRET_KEY = 's!qs5!9(bhkv7#hn#172zm_*l#m)j(8lv1gj)#84p$9+^&amp;bn9e'
-
-
-# Location of router
-ROOT_URLCONF = 'app.urls'
 
 
 # Shim to run application from Apache
@@ -24,11 +22,8 @@ WSGI_APPLICATION = 'app.wsgi.application'
 
 # Static server
 STATIC_URL = '/static/'
-
 STATIC_ROOT = ''
-
 STATICFILES_DIRS = (  BASE_DIR+'/static', )
-
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
@@ -64,13 +59,4 @@ TEMPLATE_DIRS = (
 )
 
 
-# Database
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': join(BASE_DIR, 'data', 'brain.db'),
-    }
-}
-
-
-TEMPLATE_DEBUG = True
+from db import DATABASES
