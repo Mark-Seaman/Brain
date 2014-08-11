@@ -25,9 +25,9 @@ WSGIPythonPath /home/ubuntu/Projects/brain/app:/home/ubuntu/env_2.7/lib/python2.
 #            Allow from all
 #        </Directory>
 
-        WSGIDaemonProcess brain user=brain group=brain processes=4 threads=2 python-path="/home/ubuntu/Projects/brain/app:/home/ubuntu/env_2.7/lib/python2.7/site-packages"
+        WSGIDaemonProcess brain user=ubuntu group=ubuntu processes=4 threads=2 python-path="/home/ubuntu/Projects/brain/app:/home/ubuntu/env_2.7/lib/python2.7/site-packages"
         WSGIScriptAlias / /home/ubuntu/Projects/brain/app/app/wsgi.py
-        WSGIProcessGroup brain
+        WSGIProcessGroup ubuntu
         WSGIApplicationGroup %{GLOBAL}
 
         <Directory /home/ubuntu/Projects/brain/app>                                          
