@@ -16,7 +16,7 @@ cd $pa
 }
 
 # Production server
-[ `hostname` == ip-10-252-24-21 ] && 
+[ `hostname` == seaman-sws ] && 
 { 
     ~/base-bin/db-destroy $db_production && 
     ~/base-bin/db-create  $db_production 

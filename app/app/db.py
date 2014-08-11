@@ -1,12 +1,11 @@
 
 DATABASES = {
     'default': {
-        # Add 'postgresql_psycopg2', 'mysql', 'sqlite3'
-        'ENGINE': 'django.db.backends.sqlite3', 
-        'NAME': 'data/Brain_development.db',  # Database file
-        'USER': '',                            # Not used with sqlite3.
-        'PASSWORD': '',                        # Not used with sqlite3.
-        'HOST': '',                            # Set to empty string for localhost. 
-        'PORT': '',                            # Set to empty string for default. 
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'Brain_production',
+        'USER': 'sws',
+        'PASSWORD': 'sws-2014',
+        'HOST': 'shrinking-world.cqfqiornb6z5.us-west-2.rds.amazonaws.com',
+        'PORT': '5432',
     }
 }

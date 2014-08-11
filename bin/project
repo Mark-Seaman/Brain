@@ -53,7 +53,7 @@ cd $p
 [ 'seaman-chute'  == `hostname` ] &&  . $p/env/bin/activate
 [ 'seaman-hammer' == `hostname` ] &&  . $p/env/bin/activate
 [ 'seaman-ultra'  == `hostname` ] &&  . $p/env/bin/activate
-[ `hostname` == 'ip-10-252-24-21' ] && . $HOME/env_2.7/bin/activate
+[ `hostname` == seaman-sws ] && . $HOME/env_2.7/bin/activate
 echo "python = `which python`"
 echo 
 path
