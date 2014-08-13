@@ -1,6 +1,6 @@
 #!/bin/bash
 # Pull code and bounce the server
 
-svr-do '. Projects/brain/project && cd $p && git pull && apache-restart'
+svr-do '. Projects/brain/bin/project && cd $p && git pull && apache-restart'
 
 
