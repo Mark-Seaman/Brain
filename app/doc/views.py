@@ -23,13 +23,6 @@ def render(request,template,data):
     return HttpResponse(page.render(Context(data)))
 
 
-# Get the IP address for the request
-def ip(request):
-    if request.META['REMOTE_ADDR']=='127.0.0.1':
-        return request.META['REMOTE_ADDR']
-    return request.META['HTTP_X_FORWARDED_FOR']
-
-
 # Name of requesting user
 def user(request):
     if not request.user.is_anonymous():
@@ -47,7 +40,7 @@ def user_doc(request,title):
 
 # Log the page hit in page.log  (time, ip, user, page, doc) 
 def log_page(request,title): 
-    append_log( ip(request)+' '+request.get_host()+' '+user(request)+' '+title)
+    append_log(request.get_host()+' '+user(request)+' '+title)
 
 
 # Render the view for a missing document
@@ -195,17 +188,3 @@ def delete(request,title):
 def permitted(request,title=''):
     return title.startswith('Anonymous') or user(request)!='Anonymous'
 
-
-# Check for permissions
-def illegal(request):
-    title = 'IllegalMachine'
-    log_page (request, 'illegal: %s'%title)
-    user = str(request.user)
-    text = user+format_doc(title)%ip(request)
-    return render(request, 'doc.html', {'title': title, 'text': text})
-
-
-# Check the IP address for the request
-def ip_ok(request):
-    valid = [ '108.59.4.75', '50.134.243.56', '127.0.0.1' ]
-    return ip(request) in valid
