@@ -1,0 +1,7 @@
+#!/bin/bash
+# Browse pages in the web site 
+
+w http://seamantech.com/$1
+
+
+

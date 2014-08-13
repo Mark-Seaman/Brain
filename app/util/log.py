@@ -4,11 +4,14 @@ from os import environ,remove
 from datetime import datetime
 
 from files import read_text,list_files
+from app.settings import BASE_DIR
+
+LOG_DIR =  BASE_DIR+'/../logs/'
 
 
 # Setup the file name
 def log_file(logFile):
-    return environ['p']+'/logs/'+logFile+'.log'
+    return LOG_DIR+logFile+'.log'
 
 
 # Log the page hit in page.log  (time, ip, user, page, doc) 
@@ -24,7 +27,7 @@ def show_log(filename='page'):
 
 # Get the contents of a log file
 def list_logs():
-    d = environ['p']+'/logs/'
+    d =  LOG_DIR
     for f in list_files(d):
         f = f.replace('.log','')
         log = show_log(f)
@@ -32,7 +35,7 @@ def list_logs():
 
 # Get the contents of a log file
 def clear_logs():
-    d = environ['p']+'/logs/'
+    d = LOG_DIR
     for f in list_files(d):
         f = f.replace('.log','')
         print 'remove', log_file(f)
