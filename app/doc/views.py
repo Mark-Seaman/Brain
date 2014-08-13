@@ -5,7 +5,7 @@ from django.shortcuts   import render_to_response, get_object_or_404
 from django.template    import loader, Context, RequestContext
 from django.utils.html  import escape
 from os.path            import join, exists, dirname
-from os                 import system,environ
+from os                 import system
 
 from models    import *
 from util.page import show_page,put_page,get_page,page_redirect,allow_edit

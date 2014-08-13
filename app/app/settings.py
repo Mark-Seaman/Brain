@@ -9,8 +9,9 @@ TEMPLATE_DEBUG = True
 
 # Location of app directory
 ROOT_URLCONF = 'app.urls'
-BASE_DIR = dirname(dirname(__file__))
-    
+BASE_DIR     = dirname(dirname(__file__))
+DOC_DIR      = BASE_DIR+'/user_doc'
+   
 # Login
 LOGIN_URL = '/login'
 LOGIN_REDIRECT_URL = '/'

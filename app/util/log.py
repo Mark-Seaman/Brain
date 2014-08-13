@@ -1,6 +1,6 @@
 # Read and write a system log file
 
-from os import environ,remove
+from os import remove
 from datetime import datetime
 
 from files import read_text,list_files

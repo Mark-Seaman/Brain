@@ -1,6 +1,6 @@
 
 from datetime   import datetime
-from os         import system,environ,chdir,getcwd
+from os         import system,chdir,getcwd
 from os.path    import isfile, isdir, exists, join
 from re         import compile, IGNORECASE, DOTALL
 

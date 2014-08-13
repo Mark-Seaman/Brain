@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # Create a tabbed view of a user document
 
-from os         import chdir,environ
+from os         import chdir
 from sys        import argv
 from os.path    import join,exists
 from re         import compile, IGNORECASE, DOTALL
@@ -10,6 +10,7 @@ from subprocess import Popen,PIPE
 from util.wiki  import convert_html
 from util.files import do_command,read_text
 from util.widgets import format_widgets
+from app.settings import DOC_DIR
 
 
 def group_tabs(text):
