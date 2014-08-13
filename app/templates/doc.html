@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+
+{% block content %}
+    <h1>{{ title }}</h1>
+    {% autoescape off %}
+        {{ text }}
+    {% endautoescape %}
+{% endblock %}

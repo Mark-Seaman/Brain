@@ -4,7 +4,7 @@ from subprocess         import Popen,PIPE
 from os.path            import exists,join,dirname,basename
 from os                 import listdir,remove
 
-from Hammer.settings    import DOC_ROOT
+from app.settings       import BASE_DIR
 from util.page          import show_page
 from util.doc           import doc_show
 
@@ -31,7 +31,7 @@ def title_text(title):
     
 # Path to doc in file system
 def doc_file(title):
-    return join(DOC_ROOT,title)
+    return join(DOC_ROOT,'user_doc',title)
 
 
 # Look for the document
