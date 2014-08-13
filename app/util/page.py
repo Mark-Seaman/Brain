@@ -16,7 +16,7 @@ def log_page(doc):
     append_log(doc,'docs')
 
 
-# Convert a url to a directory
+# Convert a url to a document directory path
 def doc_path(host,user,path):
     dir = domain_directory(host)
     user = user.replace('Anonymous', 'Public')
@@ -68,15 +68,17 @@ def edit_link(host,user,path):
 # Format the doc contents into HTML
 def show_page(host,user,path,allow_public=True):
     log_page('show '+host+' '+user+' '+path)
-    # if allow_public:
-    #     doc = doc_path(host,'Public',path)
-    #     if exists(doc):
-    #         return format_doc(doc)
+    if allow_public:
+        doc = doc_path(host,'Public',path)
+        if exists(doc):
+            return format_doc(doc)
 
     doc = doc_path(host,user,path)
-    #if exists(doc):
+    if exists(doc):
         #return edit_link(host,user,path)+format_doc(doc)        
-    return doc        
+        return format_doc(doc)        
+    else:
+        append_log('missing '+doc,'page')
 
 
 # Put the document text in storage
