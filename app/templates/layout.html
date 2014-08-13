@@ -3,27 +3,29 @@
   <head>
     <link href="/static/bootstrap-combined.min.css" rel="stylesheet">
     <link href="/static/hammer.css" rel="stylesheet">
+    <link href="/static/bootstrap-combined.min.css" rel="stylesheet">
+    <script src="/static/angular.js"></script>
+    <script src="/static/ui-bootstrap-tpls-0.4.0.js"></script>
+    <script src="/static/hammer.js"></script>
   </head>
 
   <body>
     <div class='header'>
       <a href="/"> <h1 style='color:blue'>Seaman Tech Server</h1> <br>Home </a>
 
+      {% block user %} 
       <div style='float:right'>
-
-        {% if user.is_authenticated and user.is_staff %}
-        <div style='float:right'>
-          Logged in as,
-          <strong>{% firstof user.first_name user.username %}</strong>.
-          <!-- <a href="/password_change">Change password</a> -->
-          <a href="/logout">Log out</a>
-        </div>
+        {% if user.is_authenticated  and user.is_staff %}
+        Logged in as,
+        <strong>{% firstof user.first_name user.username %}</strong>.
+        <!-- <a href="/password_change">Change password</a> -->
+        <a href="/logout">Log out</a>
+        {% else %}
+        You are not logged in.
+        <p><a href='/login/?next=/'>Login</a></p>
         {% endif %}
-
-        <p>Welcome, {{user}}</p>
-        <p><a href='/logout?next="/"'>Logout</a></p>
-
       </div>
+      {% endblock %}
 
       <hr>
     </div>

@@ -82,7 +82,8 @@ def doc(request,title):
     #if p: 
     #    return redirect(request,p)
     text = show_page(host,u,title,True)
-    content =  {'site_title':request.get_host(), 'user':request.user, 'title': title, 'text': text}
+    content =  {'site_title':request.get_host(), 'user':request.user, 
+                'title': title, 'text': text}
     return render(request, 'doc.html', content)
 
 
