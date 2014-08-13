@@ -11,6 +11,9 @@ TEMPLATE_DEBUG = True
 ROOT_URLCONF = 'app.urls'
 BASE_DIR = dirname(dirname(__file__))
     
+# Login
+LOGIN_URL = '/login'
+LOGIN_REDIRECT_URL = '/'
 
 # App startup
 SECRET_KEY = 's!qs5!9(bhkv7#hn#172zm_*l#m)j(8lv1gj)#84p$9+^&amp;bn9e'
@@ -40,7 +43,8 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django_extensions',
     'doc',
-    'task',
+    #'task',
+    'util',
 )
 
 MIDDLEWARE_CLASSES = (
