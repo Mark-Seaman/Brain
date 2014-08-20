@@ -1,6 +1,9 @@
 diff bin/install.pip /home/seaman/Projects/jack-hammer/bin/install.pip
 diff bin/project /home/seaman/Projects/jack-hammer/bin/project
 diff bin/src /home/seaman/Projects/jack-hammer/bin/src
+diff bin/util/log.py /home/seaman/Projects/jack-hammer/bin/util/log.py
 diff bin/var-clear /home/seaman/Projects/jack-hammer/bin/var-clear
 diff bin/welcome /home/seaman/Projects/jack-hammer/bin/welcome
+diff test/content.tst /home/seaman/Projects/jack-hammer/test/content.tst
+diff test/projects.tst /home/seaman/Projects/jack-hammer/test/projects.tst
 diff test/update.tst /home/seaman/Projects/jack-hammer/test/update.tst

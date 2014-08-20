@@ -1,9 +1,6 @@
-Remove automatically saved files from this directory tree
-Git orig files
-Git libpeerconnection files
-/home/seaman/Projects/brain/README.md
+Projects/brain/README.md
 
-/home/seaman/Projects/brain:
+Projects/brain:
 app
 bin
 doc
@@ -12,7 +9,7 @@ logs
 README.md
 test
 
-/home/seaman/Projects/brain/app:
+Projects/brain/app:
 app
 brain
 Brain.wpr
@@ -25,13 +22,26 @@ scripts
 static
 task
 templates
+user_doc
+util
 
-/home/seaman/Projects/brain/bin:
+Projects/brain/bin:
+apache-check-conf
+apache-configure
+apache-restart
 app-code
 app-models
+brain.conf
 cache
 commit
 create
+db-create
+db-destroy
+db-list
+db-reset
+db-set-development
+db-set-production
+db-sync
 diff-gen
 diff-test
 doc-diff-all
@@ -47,10 +57,6 @@ e
 edit-source
 elapsed
 filter-path
-impact-data
-impact-urls
-impact-views
-import-docs
 install.pip
 json-load
 json-load-doc
@@ -85,10 +91,14 @@ rs
 run
 search
 show
-sql-reset
-sql-sync
 src
 src-jack
+svr-changes
+svr-commit
+svr-console
+svr-do
+svr-restart
+svr-update
 te
 tfail
 tfix
@@ -108,9 +118,11 @@ var-read
 var-save
 var-set
 var-write
+w
+web
 welcome
 
-/home/seaman/Projects/brain/doc:
+Projects/brain/doc:
 classes
 Domains
 Public
@@ -119,18 +131,20 @@ SRS
 test
 vars-data
 
-/home/seaman/Projects/brain/env:
+Projects/brain/env:
 bin
 include
 lib
 local
 
-/home/seaman/Projects/brain/logs:
+Projects/brain/logs:
+docs.log
+page.log
 python.tst.log
 tablerw.tst.log
 user
 
-/home/seaman/Projects/brain/test:
+Projects/brain/test:
 brain.correct
 brain.tst
 content.correct
